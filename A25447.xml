@@ -1,0 +1,899 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Religio clerici</title>
+            <author>T. A.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 133 KB of XML-encoded text transcribed from 124 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A25447</idno>
+            <idno type="STC">Wing A32</idno>
+            <idno type="STC">ESTC R200747</idno>
+            <idno type="EEBO-CITATION">13681579</idno>
+            <idno type="OCLC">ocm 13681579</idno>
+            <idno type="VID">101294</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A25447)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 101294)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 830:2 or 2541:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Religio clerici</title>
+                  <author>T. A.</author>
+               </titleStmt>
+               <extent>[12], 231, [5] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Henry Brome ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1681.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Written by T.A.  Cf. Wing.</note>
+                  <note>Added t.p., engraved, has date 1680.</note>
+                  <note>Advertisement on p. [1-5] at end.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-10</date>
+            <label>Leah Yurasek</label>Sampled and proofread</change>
+         <change>
+            <date>2011-10</date>
+            <label>Leah Yurasek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:101294:1" rendition="simple:additions"/>
+            <figure>
+               <p>MATTHEW. 14. 30.</p>
+               <p>
+                  <hi>London Printed for Henry Brom</hi> 1680.</p>
+               <p>
+                  <hi>F. H. Van. Houe Schup:</hi>
+               </p>
+            </figure>
+            <pb facs="tcp:101294:1"/>
+            <p> RELIGIO Clerici.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>Epictet.</p>
+            <q>
+               <hi>Take heed unto thy ſelf and unto thy Doctrine,</hi> 
+               <bibl>1 Tim. 4. 16.</bibl>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Henry Brome,</hi> at the Gun in St. <hi>Pauls</hi> Church-yard. 1681.</p>
+            <pb facs="tcp:101294:2"/>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:101294:2"/>
+            <head>TO THE Equal READER.</head>
+            <p>
+               <hi>I Deſire thee, Good Reader, (if thou muſt needs be judging) to ſuſpend thy</hi> Cenſure <hi>till thou haſt read the laſt Line of this little</hi> Book; <hi>or, if thou thinkeſt it not worth thy while to read all, prethee let me beg of thee not to meddle with it at all. For that which may to a ſlight glance on ſingle pieces and</hi> Paragraphs <hi>ſeem disjoynted and</hi> irrelative, <hi>will per<g ref="char:EOLhyphen"/>haps in the whole appear (to a ſteady Eye) to have ſuitable</hi> Sym<g ref="char:EOLhyphen"/>metry <hi>and due</hi> Connexion.</p>
+            <pb facs="tcp:101294:3"/>
+            <p> 
+               <hi>Some things, and thoſe of mo<g ref="char:EOLhyphen"/>ment too, I have but toucbt with ſhort Hints, as leaving the reſt to the enlargement and amplification of thy better Ingenuity.</hi>
+            </p>
+            <p>Brevis eſſe laboro, obſcurus fio. <hi>Horat.</hi>
+            </p>
+            <p>
+               <hi>I deſigne no Conteſt or</hi> Cavil <hi>in this Pygmie-Treatiſe, but a ſlight and ſudden Pourtraict in</hi> Minia<g ref="char:EOLhyphen"/>ture <hi>of naked Truth, as ſhe lately appeared to the</hi> Authour <hi>in a thoughtful</hi> Retirement <hi>of his for a few days. If therefore ſome Lines in this</hi> Draught <hi>ſeem (to Expert Artiſts) but very meanly</hi> deſcriptive <hi>of the Charms and divine Excellencies of her immortal Beauty, they muſt pardon the young</hi> Limner, <hi>ſince ſo much da<g ref="char:EOLhyphen"/>zling Luſtre might poſſibly con<g ref="char:EOLhyphen"/>found</hi>
+               <pb facs="tcp:101294:3"/> 
+               <hi>him, and make his unpra<g ref="char:EOLhyphen"/>ctiſed hand ſhake.</hi>
+            </p>
+            <p>Totus tremo horreóque poſt<g ref="char:EOLhyphen"/>quam aſpexi hanc. <hi>Terent.</hi>
+            </p>
+            <p>
+               <hi>And beſides, this is but an</hi> Eſſay <hi>of Art, mere Trial of Skill, and the firſt time that his</hi> Pencil <hi>hath been publick.</hi>
+            </p>
+            <p>
+               <hi>Thou knoweſt, Reader, that let Sham-truths be drawn as ſeveral<g ref="char:EOLhyphen"/>ly as mens fancies and humours pleaſe, (yet) ſhe herſelf hath ne<g ref="char:EOLhyphen"/>vertheleſs one regular, uniform, e<g ref="char:EOLhyphen"/>ternal Face. And there is moſt certainly ſuch a thing as right</hi> Reaſon, <hi>thô rational men (which I'le tell thee is very odde and a<g ref="char:EOLhyphen"/>mazing) by the very ſelf-ſame pretended</hi> Guide <hi>follow ſeveral diſtinct tracks, and all but one Erroneous.</hi>
+            </p>
+            <pb facs="tcp:101294:4"/>
+            <p> 
+               <hi>But thou maiſt as well argue, that the</hi> Pole-ſtar <hi>is not ſteady, ſince many are bewilder'd and be<g ref="char:EOLhyphen"/>mir'd by an</hi> Ignis fatuus, <hi>as raſhly ſuſpect true</hi> Reaſon, <hi>becauſe now adays Errours of all ſorts do im<g ref="char:EOLhyphen"/>pudently aſſume its ſhape.</hi>
+            </p>
+            <p>
+               <hi>And there is as undoubtedly ſuch a thing as</hi> true Religion, <hi>al<g ref="char:EOLhyphen"/>though ('tis monſtrous to conſider that) we are at this very day, af<g ref="char:EOLhyphen"/>ter near</hi> 1700 <hi>years acquaintance, as hotly diſputing where, and what</hi> ſhe <hi>is, as if no man yet had ever had a full and perfect view of her face.</hi>
+            </p>
+            <p>
+               <hi>This makes ſome licentious per<g ref="char:EOLhyphen"/>ſons now a daies, willing to ſuſpect that all Religion is but the general</hi> Laws of Nature, <hi>and (at the beſt) they reduce Chriſtianiry it ſelf to the firſt ſtage from whence it long</hi>
+               <pb facs="tcp:101294:4"/> 
+               <hi>ago ſet out,</hi> viz. Common Morality.</p>
+            <p>
+               <hi>Diſputes, Doubts, and Conteſts will, I fear, never ceaſe, as long as</hi> Ambition, Avarice, <hi>and</hi> Impiety <hi>bear ſway in the world. But ſhould perverſe differences by endleſs</hi> ſu<g ref="char:EOLhyphen"/>perfetations <hi>ſwarm ſtill daily more and more (which God pre<g ref="char:EOLhyphen"/>vent) yet may the moſt doubtful ignorant Soul take ſafe</hi> Sanctuary <hi>in this laſt reſerve of irrefragable</hi> Argument, viz. <hi>to follow ſtill with generous and ſtedfaſt duty, our</hi> Royal, <hi>our</hi> Noble, <hi>our</hi> Honou<g ref="char:EOLhyphen"/>rable, <hi>and our</hi> Reverend Learned Leaders, <hi>(till we can demonſtrate that they are in the wrong:) for thus at the very worſt we can ha<g ref="char:EOLhyphen"/>zard but a poſſible, pardonable miſtake, and that too in dutiful proſecution of our Chriſtian</hi> Obe<g ref="char:EOLhyphen"/>dience, 1 Pet. 2. 13, 14.</p>
+            <pb facs="tcp:101294:5"/>
+            <p> 
+               <hi>To conclude, Reader, 'tis my hearty wiſh, that the meanneſs and impertinence, the brevity and narrowneſs of this weak ſhallow diſcourſe (that follows) may not in the leaſt</hi> eclipſe <hi>the glory of its</hi> Illuſtrious Title: <hi>For I deſigned at firſt (however I have failed in the publication) to ſpeak to no bo<g ref="char:EOLhyphen"/>dy, of no body, and for no body but my ſelf. All its Errours I am ready to acknowledge, which I fear are not a few; it being the Product of a dull melancholy Re<g ref="char:EOLhyphen"/>treat, and the haſty Abortive Re<g ref="char:EOLhyphen"/>ſult of a labouring minde, with<g ref="char:EOLhyphen"/>out borrowing the uſual help and concurrence of other mens thoughts: I only am therefore blameable and reſponſible for all the miſtakes.</hi>
+            </p>
+            <p>
+               <hi>I eaſily foreſee,</hi> Reader, <hi>that ſome malevolent perſons will (with</hi>
+               <pb facs="tcp:101294:5"/> 
+               <hi>railing and detraction) tell thee, that my very</hi> handling <hi>it hath</hi> ſoiled <hi>the dignity of the ſubject. 'Tis true, I cannot prevent</hi> uncha<g ref="char:EOLhyphen"/>ritable <hi>Aſperſions; but to the wiſe, the good, and moderate, I ſay,</hi> What man knoweth the things of a man, ſave the ſpirit of man that is in him? 1 <hi>Cor.</hi> 2. 11. <hi>As for the reſt,</hi>
+            </p>
+            <p>Odi profanum Vulgus &amp; arceo.</p>
+            <pb facs="tcp:101294:6"/>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:101294:6"/>
+            <head>RELIGIO CLERICI.</head>
+            <p>IT prov'd matter of no ſmall wonder to a good old Heathen, when he obſerved ſuch various appearances of different Opinions, Hu<g ref="char:EOLhyphen"/>mours and propenſions in his Countrymen of <hi>Greece;</hi> eſpecially too when he conſidered how that all theſe Contrarieties and Diſproportions procee<g ref="char:EOLhyphen"/>ded
+<pb n="2" facs="tcp:101294:7"/> from men begot, born, and bred in the ſame Climate, under the ſame Laws, Conſtitutions, and Cuſtoms, and the ſource of all whoſe Inclinations and paſſions reſulted from one common ſimplicity of the very ſame ſpecifick humane nature. But if he was puzled in the re<g ref="char:EOLhyphen"/>ſolution of this ſcruple then, to what a far higher degree of aſtoniſhment would his Admiration have riſen, if he had li<g ref="char:EOLhyphen"/>ved in theſe days of ours, when (as if ſome extraor<g ref="char:EOLhyphen"/>dinary malignant Con<g ref="char:EOLhyphen"/>junction
+<pb n="3" facs="tcp:101294:7"/> in the Heavens did in ſpite produce a general diviſion on Earth, eſpecially) in our poor Iſland there are as many different Paſſions and Af<g ref="char:EOLhyphen"/>fections, Plots and Agita<g ref="char:EOLhyphen"/>tions, Factions and Faſhi<g ref="char:EOLhyphen"/>ons, Opinions and Religi<g ref="char:EOLhyphen"/>ons, almoſt as men. And when too the Reaſons and Advantages for Unity and Agreement both in Principle and Practice, are far greater, and of a ſtamp more divine, than ever our Heathens Age or Countrey could pretend to.</p>
+            <pb n="4" facs="tcp:101294:8"/>
+            <p> There are two or three Conſiderations, that might eaſily remove all this mans Amazement at the diffe<g ref="char:EOLhyphen"/>rent <hi>Phaenomena</hi>'s of his Countrymens Carriage and Converſation.</p>
+            <p>For, to be begotten and born in the ſame way and manner, Educated in the ſame Country, and wearing all the ſame com<g ref="char:EOLhyphen"/>mon humane nature, are concurrences 'tis true that might happily cauſe ſome faint reſemblances, but could not reaſonably be expected to create ſuch a Unity of temper, as to
+<pb n="5" facs="tcp:101294:8"/> counterballance thoſe ma<g ref="char:EOLhyphen"/>ny other accidents that urge the contrary.</p>
+            <p>The way of Mans Ge<g ref="char:EOLhyphen"/>neration, and its atten<g ref="char:EOLhyphen"/>ding Circumſtances, ſeem alike, 'tis true; but with<g ref="char:EOLhyphen"/>out doubt there is a cer<g ref="char:EOLhyphen"/>tain Magical Influence of nature (derived from Ce<g ref="char:EOLhyphen"/>leſtial Motions, or <hi>Extra<g ref="char:EOLhyphen"/>duce)</hi> that tempers us all diverſly in our very <hi>fieri,</hi> and gives each of us a ſe<g ref="char:EOLhyphen"/>veral tincture whilſt we lye looſe in our firſt prin<g ref="char:EOLhyphen"/>ciples: and thus each In<g ref="char:EOLhyphen"/>dividual being blended in a different faſhion by Na<g ref="char:EOLhyphen"/>tures
+<pb n="6" facs="tcp:101294:9"/> Myſterious Art (as I may ſay) it proves as difficult to find two Con<g ref="char:EOLhyphen"/>ſtitutions, as two Faces exactly alike.</p>
+            <p>From this various Con<g ref="char:EOLhyphen"/>texture proceed our re<g ref="char:EOLhyphen"/>ſpective humours and Complexions, which of<g ref="char:EOLhyphen"/>ten prove a more forcible cauſe of our Opinions and Paſſions, and of the diſſimilitudes and con<g ref="char:EOLhyphen"/>trarieties of them, than bare Reaſon and Free<g ref="char:EOLhyphen"/>will: It certainly ſtrongly influences thoſe faculties in their operations, and in a greater meaſure too, than
+<pb n="7" facs="tcp:101294:9"/> many weak and unwary Mortals apprehend, to whom ignorance in this point proves oftentimes a moſt unſpeakable deluſion and prejudice.</p>
+            <p>From this ſecret work of our firſt nature 'tis, that Man is, (as it were) a <hi>ſpecies</hi> to Man, and our difference is more than that of <hi>Numerical.</hi>
+            </p>
+            <p>And by this means our Heathens Countrymen, (having no infallible rule of Knowledge, nor ſteady guide of their Actions) might well be as different in their Opinions and
+<pb n="8" facs="tcp:101294:10"/> Practices, as they were in Natural Complexion, by which their Reaſon and Will was ſo ſtrongly led and byaſſed.</p>
+            <p>For alas, their Reaſon was dull and blunt, ha<g ref="char:EOLhyphen"/>ving no better edge than what it procured by fre<g ref="char:EOLhyphen"/>quent Colliſion and re<g ref="char:EOLhyphen"/>flection on its ſelf; by all which notwithſtanding, it could never arrive (even in the beſt of them) to ſo much brightneſs and clearneſs, as to guide and fix them in the one ſtea<g ref="char:EOLhyphen"/>dy Truth, (in purſuit of which they ran into a
+<pb n="9" facs="tcp:101294:10"/> thouſand Superſtitious &amp; Idolatrous Errours) nor to ſo much ſtrength as to hold them to one con<g ref="char:EOLhyphen"/>ſtant regular Tenor of Goodneſs and Juſtice.</p>
+            <p>Nor indeed was it poſ<g ref="char:EOLhyphen"/>ſible it ever ſhould; for they poor Creatures had as large a doſe of Natu<g ref="char:EOLhyphen"/>tural Corruption and in<g ref="char:EOLhyphen"/>fection derived from their unknown Parent <hi>Adam,</hi> as we, and yet were de<g ref="char:EOLhyphen"/>ſtitute of thoſe helps and antidotes that have by Gods grace allaied the mortal malignity of the venome in us, and leſſen<g ref="char:EOLhyphen"/>ed
+<pb n="10" facs="tcp:101294:11"/> much that dominion and power, which Errour and Vice naturally had o<g ref="char:EOLhyphen"/>ver the Reaſon and Will of all men before the ap<g ref="char:EOLhyphen"/>pearance and Doctrine of the holy Jeſus.</p>
+            <p>But again, my honeſt Heathen never thought of the vaſt number of their reſpective Gods and Tem<g ref="char:EOLhyphen"/>ples, where each man worſhipped this or that Deity as his fancie led him, or the Choice and Cuſtom of the City or Country directed and re<g ref="char:EOLhyphen"/>quired: ſurely no ſmall difference in mens Man<g ref="char:EOLhyphen"/>ners
+<pb n="11" facs="tcp:101294:11"/> and Opinions aroſe from this.</p>
+            <p>But farther ſtill, <hi>Greece</hi> was Canton'd out into many petty Polities, and independent Common<g ref="char:EOLhyphen"/>wealths, governed by their proper diſtinct Laws and Conſtitutions: this too muſt needs create diſſimi<g ref="char:EOLhyphen"/>litudes as to Civil Obſer<g ref="char:EOLhyphen"/>vances, Cuſtoms, Practi<g ref="char:EOLhyphen"/>ces, and Intereſts; though the common Education of the <hi>Grecians,</hi> as to the main, might be much a<g ref="char:EOLhyphen"/>like, which he urges, <hi>&amp;c.</hi>
+            </p>
+            <p>And laſtly, the ſeveral parts men acted in their
+<pb n="12" facs="tcp:101294:12"/> reſpective Political capa<g ref="char:EOLhyphen"/>cities, and the many dif<g ref="char:EOLhyphen"/>ferent Occurrences and Emergencies that daily attend diverſly the Life and Action, Commerce and Buſineſs of each par<g ref="char:EOLhyphen"/>ticular perſon, muſt ac<g ref="char:EOLhyphen"/>cordingly modifie the Manners, Qualities, and Faſhions of men.</p>
+            <p>When I weigh theſe Circumſtances in my Au<g ref="char:EOLhyphen"/>thours Age and Country, truly his wonder ceaſes to be mine, and a far greater ariſes: <hi>Miror magis undi<g ref="char:EOLhyphen"/>que noſtris uſque a<g ref="char:EOLhyphen"/>deo</hi> 
+               <note place="margin">Virgil. Ecl. 1.</note> 
+               <hi>turbatur agris.</hi>
+            </p>
+            <pb n="13" facs="tcp:101294:12"/>
+            <p> I wonder much more at the many diverſities and diviſions in our own Climate, this poor Iſland, where moſt or all of the other reaſons and occaſi<g ref="char:EOLhyphen"/>ons of difference wholly ceaſe: And I looſe my ſelf in a Maze and Laby<g ref="char:EOLhyphen"/>rinth of thought, whilſt I ſtrive to purſue the ge<g ref="char:EOLhyphen"/>nuine cauſe of our divers Opinions and Practices, when (as one would think) all Reaſons imagi<g ref="char:EOLhyphen"/>nable concur for Union and Harmony.</p>
+            <p>We acknowledge all one God and Jeſus, and
+<pb n="14" facs="tcp:101294:13"/> have all one revealed will of that God done into plain good Engliſh, free of diſtracting ambiguities (like the Heathen Ora<g ref="char:EOLhyphen"/>cles) or perplext and ob<g ref="char:EOLhyphen"/>ſcure ſignifications.</p>
+            <p>We have all one and the ſame gracious King and Governour, the ſame Laws, Statutes and Ordi<g ref="char:EOLhyphen"/>nances, made by one conſent of our ownſelves, and not impoſed at the Arbitrary diſcretion of another: We have all one common Intereſt to pre<g ref="char:EOLhyphen"/>ſerve Property and Peace, and are all ſhut up by
+<pb n="15" facs="tcp:101294:13"/> Nature, and inclos'd in one Iſland; as if ſhe de<g ref="char:EOLhyphen"/>ſigned univerſal Concord and Likeneſs, in excluſion of all Forreign varieties and mixtures.</p>
+            <p>We have all one com<g ref="char:EOLhyphen"/>mon Nature as Men, con<g ref="char:EOLhyphen"/>ſiſting of Reaſon and Will, the Eſſential Facul<g ref="char:EOLhyphen"/>ties of one ſimple Eſſence the Soul; their reſpective objects too are One, True, and Good: And we have all equally one Infallible Guide to both theſe, the Book of God.</p>
+            <p>And yet from all theſe Eſſential ſimplicities, en<g ref="char:EOLhyphen"/>viron'd
+<pb n="16" facs="tcp:101294:14"/> on all ſides with Circumſtances pointing at Unity; through an odd Caprice of ill manage, and by a monſtrous Equi<g ref="char:EOLhyphen"/>vocal Generation, ariſe thouſands of diverſities.</p>
+            <p>The Reaſon of Men (in itſelf undoubtedly the ſame) ſhall yet, in diſqui<g ref="char:EOLhyphen"/>ſition of its own object, Truth, make innumerable Excurſions; I mean, as many men ſhall have ſo many opinions about a ſingle Verity; which is impoſſible, if they did not act in ſpite of Nature, and argue more with their
+<pb n="17" facs="tcp:101294:14"/> Will than Underſtan<g ref="char:EOLhyphen"/>ding.</p>
+            <p>For, <hi>Poſitis omnibus ad agendum requiſitis,</hi> Truth diſplayed is as much the neceſſary object of our Underſtanding, as Light is of Eyes open and ſound.</p>
+            <p>I confeſs endleſs Evaſi<g ref="char:EOLhyphen"/>ons, and contrary plau<g ref="char:EOLhyphen"/>ſibilities may be oppoſed to Truth, though never ſo clear; but 'tis apparent then, that Hypocriſie and Subtlety, Arrogancy and Obſtinacy, not Reaſon or Judgment, hold the Cud<g ref="char:EOLhyphen"/>gels. And hence ſwarms,
+<pb n="18" facs="tcp:101294:15"/> that daily ſpurious Iſſue of Anſwers upon Anſwers, and Rejoynders upon Rejoynders, which our Modern Diſſenters oppoſe to the Sober Aſſertions and Loyal Vindications of our Church and King. Anſwers indeed they call them, and they are ſo as far as the Title-Page goes, but no farther, alas!</p>
+            <p>I have methinks ſo good an opinion of the Judg<g ref="char:EOLhyphen"/>ment of two or three of the chief Oracles that head and lead our modern Schiſmaticks, that I will never grant their private
+<pb n="19" facs="tcp:101294:15"/> thoughts and publick wri<g ref="char:EOLhyphen"/>tings to run parallel: ſuch ſtrong and plain truths as are daily urged to them, muſt of neceſſity carry Confutation (and ſhould of right Conviction too) along with them.</p>
+            <p>No, no, they are loth to leave their old Aſſoci<g ref="char:EOLhyphen"/>ates, and a ſhame-fac'd re<g ref="char:EOLhyphen"/>luctancy reſtrains them from giving themſelves the Lye: They will not now deſert the old Cauſe, though ſhe have loſt the field Spiritual and Tem<g ref="char:EOLhyphen"/>poral too; nor lay down their Weapons, though
+<pb n="20" facs="tcp:101294:16"/> Conquered, and gene<g ref="char:EOLhyphen"/>rouſly received to Grace.</p>
+            <p>But by their leave, if this be true, the Caſe is worſe and worſe; their Faith is Faction, their Reaſon Rancour, and their Courage Contradiction. And we muſt beware of ſuch ſly Combatants; for though they have loſt the Field, they may ſtill by Stratagem gain the Battle: Such Exploits have been afore. We fairly Con<g ref="char:EOLhyphen"/>quered them once, 'tis true; but not following Victory home, we now run the ſame Fate, and
+<pb n="21" facs="tcp:101294:16"/> ſuffer the ſame Judgment the <hi>Iſraelites</hi> did, by per<g ref="char:EOLhyphen"/>mitting the <hi>Canaanites</hi> to dwell among them, <hi>viz.</hi> many of us have been en<g ref="char:EOLhyphen"/>ticed to go a whoring af<g ref="char:EOLhyphen"/>ter their Gods, and as the Angel told the people at <hi>Bochim,</hi> they <note place="margin">Judg. <hi>Chap.</hi> 2. <hi>v.</hi> 3.</note> are left to be <hi>thorns in our ſides.</hi>
+            </p>
+            <p>'Tis now 1700 years very near, ſince Chriſtia<g ref="char:EOLhyphen"/>nity was promulgated; and not much leſs, ſince the true Model and Plat<g ref="char:EOLhyphen"/>form of it was delivered into our hands, to be for ever the Architype, Rule
+<pb n="22" facs="tcp:101294:17"/> and Standard of Faith and Practice. And yet from this plain and uniform Model, deſigned for the help and rule of our Edi<g ref="char:EOLhyphen"/>fication, have in all Ages been drawn by the warm fancies of buſie Enthuſi<g ref="char:EOLhyphen"/>aſts, and the like, ſuch monſtrous Medlies, and odd Landskips of Opini<g ref="char:EOLhyphen"/>ons, as (in another kind) the moſt extravagant Conceptions of Poets and Painters have never e<g ref="char:EOLhyphen"/>qual'd. And truly I think one and the other have ſome grounds much alike for their Whimſies;
+<pb n="23" facs="tcp:101294:17"/> I am ſure they have each of them had too much of one priviledge, and that is the <hi>Quidlibet au<g ref="char:EOLhyphen"/>dendi</hi> 
+               <note place="margin">Horat. <hi>de art. Poet.</hi>
+               </note> 
+               <hi>Poteſtas.</hi>
+            </p>
+            <p>Chriſtianity, I ſay, is now almoſt 1700 years old; and though it, as its Author, is ever one and the ſame, yet what by the Supineneſs of its true, and what by the devices of its pretended Profeſſours, it is at this day ſo over<g ref="char:EOLhyphen"/>grown with thorns and briars, and the moſſy Ex<g ref="char:EOLhyphen"/>creſcences of rotten and Corrupted Skulls, that (had not our God been
+<pb n="24" facs="tcp:101294:18"/> very gracious) we ſhould hardly diſtinguiſh and diſcern its genuine beau<g ref="char:EOLhyphen"/>ty and Native Luſtre through the Rubbiſh and Barricade of Schiſm and Hereſie.</p>
+            <p>I always thought Gods holy word ſo plain, that to invent an Heterodox Doctrine, we muſt do a violence to that, and our own Reaſon too: And yet what nice diffections have been made of theſe Scrip<g ref="char:EOLhyphen"/>tures, by too bold and cu<g ref="char:EOLhyphen"/>rious Inſpectours into the Secrets of God? How many Texts have they ſet
+<pb n="25" facs="tcp:101294:18"/> upon the Rack, and en<g ref="char:EOLhyphen"/>deavoured by cruel and unnatural diſtortions, to make them ſay as they would have them, and confeſs what they never knew? from whence have followed ſuch rents and diſlocations in ſome Mem<g ref="char:EOLhyphen"/>bers of our Religion, as (I fear) are almoſt become paſt Cure.</p>
+            <p>I would fain know what one thing material hath been diſcovered by the noiſe and buſtle of all theſe buſie and ſubtle Pates, that was not as well or better known in
+<pb n="26" facs="tcp:101294:19"/> the very firſt Centurie. I believe that in all the whole prodigious Cata<g ref="char:EOLhyphen"/>logue of Voluminous Tracts, and laboured Con<g ref="char:EOLhyphen"/>troverſies, (enough at this day to make <note place="margin">Joh. <hi>Chap. laſt v. laſt.</hi>
+               </note> good St. <hi>John</hi>'s Hyperbole) you cannot find one new Truth of any import or ſignifican<g ref="char:EOLhyphen"/>cie to our Religion, which was not known 1500 years ago. On the contrary, I am ſure they have, together with a thouſand falſities, inven<g ref="char:EOLhyphen"/>ted perplexities and em<g ref="char:EOLhyphen"/>pty trifles without num<g ref="char:EOLhyphen"/>ber,
+<pb n="27" facs="tcp:101294:19"/> which the pureſt a<g ref="char:EOLhyphen"/>ges of Chriſtianity never dreamt of.</p>
+            <p>Some have ſtretcht their brains to graſp Myſteries beyond their reach, and would crowd the Infinite Eſſence, and Ineffable At<g ref="char:EOLhyphen"/>tributes of that great God into the ſenceleſs rules &amp; terms of their Schools, whom the Heaven of Heavens cannot contain.</p>
+            <p>What horrid Hereſies have men run into, by preſuming to fathome the Myſterie of the bleſſed Trinity! and whilſt they have forcibly preſt Rea<g ref="char:EOLhyphen"/>ſon
+<pb n="28" facs="tcp:101294:20"/> on to take as large a ſtep as Faith, they have ſtumbled and fell, to their utter confuſion.</p>
+            <p>My humble (yet ſted<g ref="char:EOLhyphen"/>faſt) Faith in the hidden Things of God, can reſt fully ſatisfied in the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, without preſuming (to no purpoſe) ſo far as the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. nay, and my Reaſon too (if it muſt needs be med<g ref="char:EOLhyphen"/>ling) doth here moſt juſt<g ref="char:EOLhyphen"/>ly acquieſce, without far<g ref="char:EOLhyphen"/>ther ſcrutiny, in this con<g ref="char:EOLhyphen"/>cluſion; <hi>'Tis certainly ſo, becauſe God hath ſaid it.</hi>
+            </p>
+            <p>And thus I can eaſily believe that the Godhead
+<pb n="29" facs="tcp:101294:20"/> conſiſts of Three Perſons, without the help of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>perſona</hi> or <hi>ſuppoſi<g ref="char:EOLhyphen"/>tum:</hi> and the Incarnati<g ref="char:EOLhyphen"/>on of my Saviour is a Myſtery indeed in Divi<g ref="char:EOLhyphen"/>nity, but none in Philo<g ref="char:EOLhyphen"/>ſophy to me; for that tells me, 'twas as eaſie (to ſpeak <hi>more humano)</hi> for the Almighty to ſet Na<g ref="char:EOLhyphen"/>ture at work in Holy <hi>Ma<g ref="char:EOLhyphen"/>ries</hi> Womb to frame a man of her Seed, as to make a Woman out of the ſide of <hi>Adam.</hi>
+            </p>
+            <p>But 'tis my opinion, that the trueſt Faith ſuperſedes all arguing about the My<g ref="char:EOLhyphen"/>ſteries
+<pb n="30" facs="tcp:101294:21"/> of our Religion; and when St. <hi>Peter</hi> bids us <hi>be ready to give a reaſon<g ref="char:EOLhyphen"/>able account,</hi> 'tis not of fathomleſs Secrets, but of our Hope and <note place="margin">1 Pet. 3. 15.</note> Faith in Jeſus. Yet that Faith (I am per<g ref="char:EOLhyphen"/>ſwaded) was always moſt acceptable with our Savi<g ref="char:EOLhyphen"/>our, that acknowledged him with a plain and ſim<g ref="char:EOLhyphen"/>ple ſincerity, without a why, or wherefore: And I believe the nimble Con<g ref="char:EOLhyphen"/>feſſion of <hi>Na<g ref="char:EOLhyphen"/>thaniel,</hi> 
+               <note place="margin">Joh. 1. 49, 50.</note> though upon a ſlight occaſion, was better approved of
+<pb n="31" facs="tcp:101294:21"/> by Chriſt, than the cau<g ref="char:EOLhyphen"/>tious proceed, and de<g ref="char:EOLhyphen"/>liberate advances of Ju<g ref="char:EOLhyphen"/>dicious <hi>Nichode<g ref="char:EOLhyphen"/>mus.</hi> 
+               <note place="margin">3 Joh. 9.</note>
+            </p>
+            <p>However, I like not that high flight of the Fa<g ref="char:EOLhyphen"/>ther neither, <hi>Certum eſt, quia impoſſibile eſt;</hi> nor his who ſaid, there were not Impoſſibilities e<g ref="char:EOLhyphen"/>now in Religion for an active Faith: ſuch Hyper<g ref="char:EOLhyphen"/>bolick ſtrains do Chriſti<g ref="char:EOLhyphen"/>anity no kindneſs I am ſure, eſpecially in the Ma<g ref="char:EOLhyphen"/>hometan and Pagan world.</p>
+            <p>For were <hi>Socrates, Ci<g ref="char:EOLhyphen"/>cero,</hi>
+               <pb n="32" facs="tcp:101294:22"/> or <hi>Seneca</hi> now alive, I might with far better ſucceſs attempt their Con<g ref="char:EOLhyphen"/>verſion, by the rehearſal of Chriſts Sermon on the Mount, or St. <hi>Pauls</hi> Epi<g ref="char:EOLhyphen"/>ſtles, than by aſſaulting raſhly their unprepared Reaſon with the difficul<g ref="char:EOLhyphen"/>ties and ſeeming contra<g ref="char:EOLhyphen"/>dictions of the <hi>Athanaſian</hi> Creed.</p>
+            <p>It can no ways pro<g ref="char:EOLhyphen"/>perly be ſaid, that there is any one Impoſſibility in the Bible: For if the Let<g ref="char:EOLhyphen"/>ter and matter of fact be true, (as it may on that ſcore juſtly claim a ſtron<g ref="char:EOLhyphen"/>ger
+<pb n="33" facs="tcp:101294:22"/> title to verity than any Book of longer or la<g ref="char:EOLhyphen"/>ter date, which yet we own without ſcruple) then the Conceſſion that 'twas of Divine Inſpirati<g ref="char:EOLhyphen"/>on eaſily follows; and then the conſequence is as neceſſary, That what<g ref="char:EOLhyphen"/>ever it contains muſt be of infallible truth and certainty.</p>
+            <p>And what if we can<g ref="char:EOLhyphen"/>not ſolve its Myſteries? Their firſt deſign was to be objects of Chriſtian Faith and humble acqui<g ref="char:EOLhyphen"/>eſcence, not of Pert and Curious Argumentation.
+<pb n="34" facs="tcp:101294:23"/> If we will believe no<g ref="char:EOLhyphen"/>thing, but what we can make out, and clear of doubts, (ay and ſtrong ones too) even in things obvious and familiar, and with which we converſe every day, we muſt ſhut the whole Viſible World out of doors, and ſit down content with abſo<g ref="char:EOLhyphen"/>lute <hi>Scepticiſm.</hi>
+            </p>
+            <p>I declare I have as even a notion of Spirit as of Body, and underſtand Cogitation fully as well as Extenſion: I am no more privy to the Me<g ref="char:EOLhyphen"/>chaniſm of my own hearts
+<pb n="35" facs="tcp:101294:23"/> Motion, than I am to the Myſterie and feats of Me<g ref="char:EOLhyphen"/>mory and Imagination, or to the way how my Soul by a detachment of nimble Emiſſaries, com<g ref="char:EOLhyphen"/>mands my foot to move in an inſtant. In a word, I underſtand nothing of this kind by adequate and Commenſurate Science, but by Philoſophick gueſs, or Allegorick re<g ref="char:EOLhyphen"/>preſentations. <note place="margin">11 Eccle. 5.</note>
+            </p>
+            <p>I remember that a now Reverend and moſt Lear<g ref="char:EOLhyphen"/>ned Prelate, (at whoſe private Lectures I had the honour long ago to at<g ref="char:EOLhyphen"/>tend)
+<pb n="36" facs="tcp:101294:24"/> amongſt other moſt excellent notices, told us, that Immaterial, Infinite, and the like, were Nega<g ref="char:EOLhyphen"/>tives indeed in words, (for the barrenneſs of Language, and our own weakneſs and ignorance) but properly and in them<g ref="char:EOLhyphen"/>ſelves they were abſolute Poſitivities; and again, that their Contraries, Fi<g ref="char:EOLhyphen"/>nite and Material, were pure Negations in reſpect of the other.</p>
+            <p>
+               <hi>Deſcartes,</hi> who opened the way to his Philoſophy by ſtopping his Ears and cloſing his Eyes, and
+<pb n="37" facs="tcp:101294:24"/> ſtripping himſelf naked to bare Cogitation, found out one Original Truth (as he thought) <hi>viz. Cogi<g ref="char:EOLhyphen"/>to, Ergo Sum:</hi> what a pro<g ref="char:EOLhyphen"/>digious fallacie paſt upon this acute man! he might as well (in that caſe) have argued, <hi>Curro, Ergo Sum;</hi> the argument had been as good, though it lay at a little farther diſtance. Thus are we all weak and blind in Natural and Di<g ref="char:EOLhyphen"/>vine Secrets and Myſteries. <note place="margin">8 Eccle. 17.</note>
+            </p>
+            <p>The Canon of Holy Scripture is without doubt ſo plain, as to Eſ<g ref="char:EOLhyphen"/>ſentials
+<pb n="38" facs="tcp:101294:25"/> of Faith and Pra<g ref="char:EOLhyphen"/>ctice, that I cannot per<g ref="char:EOLhyphen"/>ſwade my ſelf to believe there was ever ſuch a thing as <hi>Nuda Haereſis:</hi> I am rather inclin'd to think that Secular Motives of pride, diſcontent, and a<g ref="char:EOLhyphen"/>varice, raiſed the boyling ferment in ambitious and reſtleſs heads; as was moſt notoriouſly apparent in the buſineſs of <hi>Arrius.</hi> This Spirit that agitated in the firſt Ages of Chri<g ref="char:EOLhyphen"/>ſtianity, worketh now ſtill in the Children of diſobedience: And when good and Learned men
+<pb n="39" facs="tcp:101294:25"/> offer at a Cure by publick writing or diſpute, the bad ſucceſs and fruitleſs conſequence ſhews, that the wrong remedy is ap<g ref="char:EOLhyphen"/>plyed; the malady lying more in the perverſeneſs of the Will, than the mi<g ref="char:EOLhyphen"/>ſtake of the Intellect.</p>
+            <p>And by this means, De<g ref="char:EOLhyphen"/>monſtration itſelf often fails of Conviction; and the ſtrongeſt and plaineſt Truths urged home to Schiſmaticks, ſtay not, but are ſent back daily in a faint retort, ſtuft more with weak Evaſion, and peeviſh Cavil, than Right
+<pb n="40" facs="tcp:101294:26"/> or Reaſon. Juſt thus 'tis at this very Juncture, and (if in this caſe Inferences <hi>de facto</hi> are good conſe<g ref="char:EOLhyphen"/>quences) is like always to be.</p>
+            <p>I wonder that <hi>Conſtan<g ref="char:EOLhyphen"/>tine</hi> ſhould ſo far counte<g ref="char:EOLhyphen"/>nance that damnable He<g ref="char:EOLhyphen"/>reſie of <hi>Arrius,</hi> as to allow it the dangerous ſcope of a free Debate in the Council of <hi>Nice.</hi> Had not Royal Reſtraints, and legal Penalties, been a ſafer and more Orthodox way to repreſs an Errour ſo palpable, that it car<g ref="char:EOLhyphen"/>ried its Confutation in
+<pb n="41" facs="tcp:101294:26"/> its own face? No doubt but ſome Plenipotentia<g ref="char:EOLhyphen"/>ries of Heaven itſelf aſſiſted at that Spiritu<g ref="char:EOLhyphen"/>al Treaty, yet (as far as I underſtand) their ſtrong and zealous Argu<g ref="char:EOLhyphen"/>ments could hardly re<g ref="char:EOLhyphen"/>duce the contrary faction to an amicable and Chri<g ref="char:EOLhyphen"/>ſtian complyance; whom pride had fore-armed with reſolution to demur at Demonſtration, and cavil at Conviction. How<g ref="char:EOLhyphen"/>ever, with much ado, af<g ref="char:EOLhyphen"/>ter a tedious debate, they compoſed the Catholick Creed, that bears the name.</p>
+            <pb n="42" facs="tcp:101294:27"/>
+            <p> Diſputes in Religion are often fruitleſs (becauſe improper) Applications, and ſerve but to increaſe the heat and feud of O<g ref="char:EOLhyphen"/>piniatours: They may in<g ref="char:EOLhyphen"/>deed confirm the Right, but very rarely convince the Erroneous party.</p>
+            <p>I conceive the Empe<g ref="char:EOLhyphen"/>rour was in a manner for<g ref="char:EOLhyphen"/>ced to give this Hereſie ſo much looſe Line as a fair debate; its Contagi<g ref="char:EOLhyphen"/>on began to rage in the Chriſtian world, and like the Jewiſh Idolatry, it had ſeated itſelf in the high Places too: beſides,
+<pb n="43" facs="tcp:101294:27"/> its high pretences might incline him to think the occaſion worthy the ſo<g ref="char:EOLhyphen"/>lemnity of that famous confluence: for although the conteſt was compri<g ref="char:EOLhyphen"/>zed within the narrow compaſs of two Greek words, yet the contro<g ref="char:EOLhyphen"/>verted point was of no leſs importance, than the Divinity of our God and Saviour. Yet that all this was the wrong remedy for that diſeaſe, appears plainly from its breaking out with re-doubled heat and violence in the ſuc<g ref="char:EOLhyphen"/>ceeding Reign of <hi>Con<g ref="char:EOLhyphen"/>ſtantius.</hi>
+            </p>
+            <pb n="44" facs="tcp:101294:28"/>
+            <p> The edge and keenneſs of our preſent diviſions, we may chiefly date from the late Act of Toleration: Such allowances proceed from Royal mercy and tenderneſs, 'tis true, but the miſchiefs that always enſue are innumerable, and grow to a formidable ſtature by inſenſible de<g ref="char:EOLhyphen"/>grees, till at length they ſuck themſelves into a ſtate and habit ſtrong enough for Rebellion, even from the breaſts of Royal Indulgence. My opinion is, (in all deep humility) that by ſuch
+<pb n="45" facs="tcp:101294:28"/> condeſcentions of Grace, Princes act againſt their own power, and elude their own Authority; they give Licenſe to wor<g ref="char:EOLhyphen"/>ſhip the righteous God a wrong way, and eſtabliſh Schiſm in Church and State by a Law. Con<g ref="char:EOLhyphen"/>ceſſions of this kind Ex<g ref="char:EOLhyphen"/>torted (as it were) from Royal Clemency and pity may indeed confirm pre<g ref="char:EOLhyphen"/>ſent Impunity, but cannot give Innocence to Diſſen<g ref="char:EOLhyphen"/>ters: To whom we may boldly and juſtly rejoyn, whenever they plead the Kings Grace, in the words
+<pb n="46" facs="tcp:101294:29"/> of our Saviour to <note place="margin">19 Matt. 8.</note> the Phariſees, <hi>Mo<g ref="char:EOLhyphen"/>ſes</hi> becauſe of the hard<g ref="char:EOLhyphen"/>neſs of your hearts ſuffe<g ref="char:EOLhyphen"/>red you this, <hi>(to put away your Religion)</hi> but from the beginning it was not ſo.</p>
+            <p>'Tis now a Soleciſm in Chriſtianity to talk of a weak Brother, and Liber<g ref="char:EOLhyphen"/>ty of Conſcience is non-ſence <hi>totidem verbis.</hi> God forbid that at this day, af<g ref="char:EOLhyphen"/>ter 1600 years, there ſhould remain any doubts or ſcruples unreſolved in our Religion, when 'tis openly diſplaied to the
+<pb n="47" facs="tcp:101294:29"/> view of all men, without ſhades or obſcurities, in moſt clear and lively co<g ref="char:EOLhyphen"/>lours.</p>
+            <p>If the good and whol<g ref="char:EOLhyphen"/>ſome Act for Uniformity had continued ſtill in full force, it had in time found mens Purſes more tender than their Con<g ref="char:EOLhyphen"/>ſciences: At leaſt, it would have done ſo much good, that the old Pique had been buried with this Generation, and the next would have Conformed of courſe. Whereas now I fear this new Liberty hath fixt the Contagion
+<pb n="48" facs="tcp:101294:30"/> in the very Vitals of our diſſenting brethren, and their Children will be tainted <hi>Ex traduce.</hi>
+            </p>
+            <p>
+               <hi>Diſputandi pruritus eſt ſcabies Eccleſiae,</hi> ſaid a Lear<g ref="char:EOLhyphen"/>ned Countryman of ours: It hath certainly been a great promoter of Schiſm, and the fuel of Faction. To ſee the Elaborate fol<g ref="char:EOLhyphen"/>lies of the ſubtile School<g ref="char:EOLhyphen"/>men, and the quirks of Polemical Divinity (what an odd word that is to affix to the plain and eaſie Religion of the meek and humble Jeſus?) their cu<g ref="char:EOLhyphen"/>rious niceties in reſear<g ref="char:EOLhyphen"/>ches
+<pb n="49" facs="tcp:101294:30"/> of matters, either al<g ref="char:EOLhyphen"/>together above, or elſe not worth our knowledge; their pretty Mazes and Labyrinths drawn by Art in puzled and bewildred Thought; but above all, their ſlippery evaſions, and nimble eſcapes, (like <hi>Hercules</hi>'s <hi>Protean</hi> Anta<g ref="char:EOLhyphen"/>goniſt) when preſt hard by cloſe and ſolid reaſon<g ref="char:EOLhyphen"/>ing, this is all matter of as great diverſion, as it had been to have been pre<g ref="char:EOLhyphen"/>ſent at the odd poſture of Circumſtances in the firſt confuſion of Tongues at <hi>Babel.</hi>
+            </p>
+            <pb n="50" facs="tcp:101294:31"/>
+            <p>'Tis pretty to obſerve their Schools; in what order and awful ſilence non-Entities ſit ranged into Claſſes according to their proficiency or quali<g ref="char:EOLhyphen"/>ty, and not one dares move till call'd out to Say, and then they ſpeak in the Language of <hi>
+                  <g ref="char:V">Ʋ</g>topia.</hi> They can (with ſtrange dexterity) make an appo<g ref="char:EOLhyphen"/>ſite Anſwer to an unintel<g ref="char:EOLhyphen"/>ligible Queſtion, and will argue <hi>pro</hi> and <hi>con</hi> whole hours together, about what was never ſeen, felt, heard or underſtood. 'Tis impoſſible to poſe them;
+<pb n="51" facs="tcp:101294:31"/> for when they cannot enodate your Argument, they ſerve you with a di<g ref="char:EOLhyphen"/>ſtinction the ſame trick that <hi>Alexander</hi> did the <hi>Gordian</hi> knot. They can as readily deſcribe the parts and proportions of a Chimaera, as you can of a man or a horſe. But their maſterpiece lies in this, they can underſtand words that ſignifie no<g ref="char:EOLhyphen"/>thing, or (which is much the ſame) ſignifie they know not what; and yet they have a ſlight to make the ſame words mean any thing. But this you'll
+<pb n="52" facs="tcp:101294:32"/> ſay is very ſtrange; take any common ordinary truth or Propoſition, ſtrip it naked of its plain Engliſh, and ſend it to be dreſt in their Fire-room, its Port and Garniture ſhall immediately become ſo majeſtick, that (though you were never ſo well acquainted with it be<g ref="char:EOLhyphen"/>fore) you ſhall gaze at it with as much Ignorance, as the honeſt Countryman did at the Powder of <hi>Al<g ref="char:EOLhyphen"/>bum-Graecum,</hi> before he underſtood the trick on't.</p>
+            <p>Theſe men can baffle Truth in what faſhion
+<pb n="53" facs="tcp:101294:32"/> and to what degree you pleaſe; as alſo advance a Falſitie how far you will, to <hi>probabile, veriſimile,</hi> and (upon a good occaſi<g ref="char:EOLhyphen"/>on) to abſolute demon<g ref="char:EOLhyphen"/>ſtration.</p>
+            <p>From their Repoſito<g ref="char:EOLhyphen"/>ries, men of ambitious and working Pates have been furniſhed with Tools and Inſtruments of all ſorts and ſizes, to form and fa<g ref="char:EOLhyphen"/>ſhion, file and vary Do<g ref="char:EOLhyphen"/>ctrines and Opinions ſui<g ref="char:EOLhyphen"/>table to the deſign and work in hand: Here are Moulds fitly prepared to caſt any Schiſm or Hereſie
+<pb n="54" facs="tcp:101294:33"/> in; and in ſhort, all En<g ref="char:EOLhyphen"/>ginery and Artillery that the Church (militant too much in this ſence) can poſſibly want upon any occaſion, they can readi<g ref="char:EOLhyphen"/>ly produce out of their Polemick Magazines.</p>
+            <p>With what ſly and ſubtle Artifices theſe men have infected Chriſtianity, or furniſhed others with means and methods of do<g ref="char:EOLhyphen"/>ing ſo, is beyond my power to declare; yet I doubt not but the ſpring and head of our many modern Sects and Schiſms might in ſome meaſure
+<pb n="55" facs="tcp:101294:33"/> be traced up to theſe Fountains.</p>
+            <p>The Romaniſts I am ſure are very ſenſible of the great advantages their monſtrous Tenets receive from hence; they obſerve it ſeldome to fail at a dead lift; by its aſſiſtance they often confound the ſimple, and not ſeldom amuſe even the more knowing. However, they can make a ſafe retreat hither, when beaten out of the field; and their boldeſt Champions, to avoid the danger of a cloſe purſuit, muce nim<g ref="char:EOLhyphen"/>bly,
+<pb n="56" facs="tcp:101294:34"/> and ſculk in the ſub<g ref="char:EOLhyphen"/>terfuges of this thorny wilderneſs.</p>
+            <p>It comes in my head here, to ſay, (though 'tis not much to the purpoſe, you'll think, but that's all one; and yet you may perceive it bears ſome ſquint relation to this diſ<g ref="char:EOLhyphen"/>courſe too) I have often admired why <hi>Ariſtotles</hi> Philoſophy ſhould be (to ſo great a degree) the chief darling of ſo many Learned and Reverend men among us. They de<g ref="char:EOLhyphen"/>duce all things from his Text, reduce all to him,
+<pb n="57" facs="tcp:101294:34"/> as the infallible Teſt of univerſal truth. I am but a very mean Judge, I confeſs, but yet I know there are ſome things in him very weak and ſhal<g ref="char:EOLhyphen"/>low, many palpable Er<g ref="char:EOLhyphen"/>rours and notorious falſi<g ref="char:EOLhyphen"/>ties; and in what he is moſt Excellent, the ſame hath been long ago, and is now found in two or three other Languages, without any the leaſt de<g ref="char:EOLhyphen"/>pendance on the Philo<g ref="char:EOLhyphen"/>ſopher, and this in a far greater degree of per<g ref="char:EOLhyphen"/>fection too. But alas, the choiſeſt truths and
+<pb n="58" facs="tcp:101294:35"/> beſt Obſervations in <hi>Ita<g ref="char:EOLhyphen"/>lian, French, Latin,</hi> or <hi>Engliſh,</hi> reliſh not near ſo well, nor have they half the poynancy, as when ſerved up with Grecian garniſh after the Attick Mode.</p>
+            <p>I had ſometime ſince an occaſional diſcourſe with a good and Learned man, who, upon quoting ſome ſaying of <hi>Ariſtotles,</hi> immediately (with em<g ref="char:EOLhyphen"/>phatick admiration) ſub<g ref="char:EOLhyphen"/>joyns, The very ſame, ſaith he, with that of the Apo<g ref="char:EOLhyphen"/>ſtle! I have quite forgot the words, but 'twas
+<pb n="59" facs="tcp:101294:35"/> ſome moral doctrinal Pre<g ref="char:EOLhyphen"/>cept I remember, which a thouſand men might have ſpoken as well as the Phi<g ref="char:EOLhyphen"/>loſopher; ſuch Propoſiti<g ref="char:EOLhyphen"/>ons being (we all know) the impreſſes and com<g ref="char:EOLhyphen"/>mon notions of Rational Nature: but <hi>Ariſtotle</hi> ſpoke Greek too, and therefore imitated the A<g ref="char:EOLhyphen"/>poſtle a twofold way.</p>
+            <p>Who would have thought that old <hi>Homer</hi> ſhould ever have arrived to ſo much Honour and Excellency as <hi>Evangeli<g ref="char:EOLhyphen"/>zans</hi> imports! that late good man and excellent
+<pb n="60" facs="tcp:101294:36"/> Grecian was in ſo high a degree his admirer, that thinking he deſerved bet<g ref="char:EOLhyphen"/>ter preferment than the firſt of the firſt rank of Poets, he would needs place him among the Go<g ref="char:EOLhyphen"/>ſpellers too. We are all apt to admire, then dote upon, and at length Ido<g ref="char:EOLhyphen"/>lize this or that part of Learning that hath moſt<g ref="char:EOLhyphen"/>ly engaged our Time, Labour, and Study: The reaſon is obvious, becauſe in that we can play a game to advantage with any Antagoniſt. So natural even to the beſt of men is Vain-glory.</p>
+            <pb n="61" facs="tcp:101294:36"/>
+            <p> Not but that I am a great admirer of Learning, and adore it at an awful diſtance almoſt to Super<g ref="char:EOLhyphen"/>ſtition: Learning, I ſay, not in hypothetick fan<g ref="char:EOLhyphen"/>cies, dry empty Notions, and fruitleſs reſearches, but in ſolid practical Truths, reductive to the ſervice of God, and the innocent profits and plea<g ref="char:EOLhyphen"/>ſures of Humane Life. The reſt may be the di<g ref="char:EOLhyphen"/>verſion and accompliſh<g ref="char:EOLhyphen"/>ment of ſuch as enjoy Wealth, Eaſe, and Vacan<g ref="char:EOLhyphen"/>cy: but for my part, I declare, I had rather feel
+<pb n="62" facs="tcp:101294:37"/> the warmth of the Sun, when I am very cold, than know whether <hi>Ptolomie, Tycho,</hi> or <hi>Copernicus</hi> come neareſt the truth. For when Wiſe and Learned men are poor and hun<g ref="char:EOLhyphen"/>gry, (which God knows too often happens) I ob<g ref="char:EOLhyphen"/>ſerve that they ſtudy more to find out a good Din<g ref="char:EOLhyphen"/>ner, than the Longitude; and to Compaſs a round ſum of Money, rather than to ſquare the Circle.</p>
+            <p>I obſerve too, that young men fledg'd and flown from their neſt of Notions in the Univerſi<g ref="char:EOLhyphen"/>ty,
+<pb n="63" facs="tcp:101294:37"/> when they come a<g ref="char:EOLhyphen"/>broad quickly find, that Mathematical Demonſtra<g ref="char:EOLhyphen"/>tions, and Logical Axioms are the ſame neither <hi>gene<g ref="char:EOLhyphen"/>re, ſpecie,</hi> nor <hi>numero,</hi> with Meat, Drink, and Clothes; this engages them to a ſtudy of that which bears a nearer re<g ref="char:EOLhyphen"/>lation to ſelf-preſervation, and they (for the moſt part) take the old road of Mankind to purchaſe ho<g ref="char:EOLhyphen"/>neſt profit, and the Com<g ref="char:EOLhyphen"/>forts of life, without much conſulting their old Acquaintances <hi>Ariſtotle, Plato, Deſcartes,</hi> or the
+<pb n="64" facs="tcp:101294:38"/> like. For as a Modern Satyriſt ſaith well in that,</p>
+            <l>Forcing our Nature never yet did good;</l>
+            <l>We must fall back to our old fleſh and blood.</l>
+            <p>This puts me in minde of the real diſgrace and detriment our Church ſuf<g ref="char:EOLhyphen"/>fers, by reaſon of the ſu<g ref="char:EOLhyphen"/>perfluous number of young Divines; ſome with ſlender parts and mean Abilities; others without Experience and Conduct; and in theſe latter, a rude maſs of bar<g ref="char:EOLhyphen"/>ren
+<pb n="65" facs="tcp:101294:38"/> unadjuſted Notions, gives ſuch an unſavory daſh, and ridiculous odd kind of Air to their diſ<g ref="char:EOLhyphen"/>courſe and deportment, as always minds me of what <hi>Charron</hi> ſaith, <hi>Fai<g ref="char:EOLhyphen"/>re</hi> 
+               <note place="margin">De la Sa<g ref="char:EOLhyphen"/>geſſe Liv. 3. Chap. 13.</note> 
+               <hi>quelque choſe en Clerk, c'eſt le faire en Sot.</hi>
+            </p>
+            <p>But the worſt is, that many are without Em<g ref="char:EOLhyphen"/>ployment ſuitable to the great Character they bear, how ſlightly ſoever eſtee<g ref="char:EOLhyphen"/>med of in our degenerate days. From each of theſe, many great miſchiefs and inconveniences follow.
+<pb n="66" facs="tcp:101294:39"/> How many are forced to take ſhelter as <note place="margin">1 Sam. 2. 36.</note> Tutours or Chap<g ref="char:EOLhyphen"/>lains in ill-affected Fami<g ref="char:EOLhyphen"/>lies, where their Stipend being often Arbitrary, and their dependance almoſt neceſſary, they are obli<g ref="char:EOLhyphen"/>ged to do their work af<g ref="char:EOLhyphen"/>ter what faſhion they pleaſe, in whoſe hands their Salary and liveli<g ref="char:EOLhyphen"/>hood wholly depends: And when they have ſer<g ref="char:EOLhyphen"/>ved the turn they were firſt entertained for here, (or perhaps for ſome little peeviſh <hi>Caprice</hi> of the Godly old Lady) they
+<pb n="67" facs="tcp:101294:39"/> are forced to march off with a cold Compliment: But if in this devout Fa<g ref="char:EOLhyphen"/>mily they have gotten ſome proficiencie in <hi>Ex<g ref="char:EOLhyphen"/>tempore</hi> praying, prating pretty well without the Book, and the like, they are excellently appointed to be received into ſome blind Aſſembly or petty Conventicle, at leaſt as Probationers, and ſo on, <hi>&amp;c.</hi>
+            </p>
+            <p>Others again croſs the Channel, (preſuming, for<g ref="char:EOLhyphen"/>ſooth, that they may ſee faſhions on free-coſt) with <hi>Omnia mea mecum porto;</hi>
+               <pb n="68" facs="tcp:101294:40"/> but when Cold and Hun<g ref="char:EOLhyphen"/>ger pinches, and the <hi>Philo<g ref="char:EOLhyphen"/>ſophick</hi> Portmantle comes to be examined, not one rag or ſingle ſtiver is to be found amongſt all <hi>Bi<g ref="char:EOLhyphen"/>as</hi>'s baggage. Then they are forced to ex<g ref="char:EOLhyphen"/>preſs their wants very politely in the univerſal Language, and (like Va<g ref="char:EOLhyphen"/>gabond <hi>Polanders</hi> here) they beg <hi>formâ pauperis Scholaſtici</hi> at ſome Con<g ref="char:EOLhyphen"/>vent or Monaſtery; where (as the caſe now ſtands) the matter a hundred to one comes to a bargain, &amp; they prove Converts: and
+<pb n="69" facs="tcp:101294:40"/> ſo having in time imbibed pernicious Principles, as well as learned the art of putting them in practice, fraught with miſchievous Machinations, and ſediti<g ref="char:EOLhyphen"/>ous deſigns, they are de<g ref="char:EOLhyphen"/>legated hither.</p>
+            <p>But I fear the Air of old <hi>England</hi> doth not re<g ref="char:EOLhyphen"/>duce one of twenty at their arrival to ſuch an happy reconverſion, as by eſpecial Influence it did the good Dr.</p>
+            <p>But a Maladie beyond all redreſs is the near de<g ref="char:EOLhyphen"/>pendance our Clergy have for the moſt part
+<pb n="70" facs="tcp:101294:41"/> upon Lay-Patrons and Benefactours: The ſervile awe and confuſion that poſſeſſes the young Di<g ref="char:EOLhyphen"/>vine whilſt he Preaches before them, is altogether inconſiſtent with that mo<g ref="char:EOLhyphen"/>deſt boldneſs and tempe<g ref="char:EOLhyphen"/>rate Aſſurance that ought (of neceſſity) to attend the Word, whether we inform or reprove. For if by chance our youth touch never ſo little upon what thwarts the private opinion, or gauls any one irregular practice of his Patron (though in never ſo general and diſtant a
+<pb n="71" facs="tcp:101294:41"/> way) he ſhall be ſure of ſuch a ſowre look, and correcting regard from his Worſhip at Dinner, as ſhall quite daſh the Coun<g ref="char:EOLhyphen"/>tenance, and turn the ſto<g ref="char:EOLhyphen"/>mack of our new <hi>dignifié,</hi> maugre the comfortable acceſſion of the late Bene<g ref="char:EOLhyphen"/>fice.</p>
+            <p>In this Caſe I wiſh all men were as happy as my ſelf, in bearing relation to a moſt Orthodox, Loyal, and pious honourable good Gentleman, <hi>&amp;c.</hi>
+            </p>
+            <p>To conclude all this, our own Souldiers for want of due pay and en<g ref="char:EOLhyphen"/>couragement,
+<pb n="72" facs="tcp:101294:42"/> turn often Renegadoes, and by de<g ref="char:EOLhyphen"/>ſerting us become ſo ma<g ref="char:EOLhyphen"/>ny freſh ſupplies to our ſworn Enemies the Py<g ref="char:EOLhyphen"/>rates of <hi>Rome</hi> and <hi>Geneva.</hi> This advantage (ſuperad<g ref="char:EOLhyphen"/>ded to the force of the old Pique) enables them not only to fight at di<g ref="char:EOLhyphen"/>ſtance, but makes them ſo hardy as to board our torn and leaky veſſel, the poor Church of <hi>England;</hi> and 'tis all ſhe can do, with invincible courage to clear her decks of theſe furious Aſſailants.</p>
+            <p>I look upon the Romiſh
+<pb n="73" facs="tcp:101294:42"/> Religion as the exacteſt piece of State-Policie, and the beſt contrived Myſte<g ref="char:EOLhyphen"/>rie of infallible Rule and Dominion, that ever yet appeared in the world. I always conſidered it un<g ref="char:EOLhyphen"/>der this notion, without any other regard or rela<g ref="char:EOLhyphen"/>tion whatever: Its ſubtle<g ref="char:EOLhyphen"/>tenets and deep Maximes ſpeak it ſuch; its ways and methods to preſerve and continue itſelf where 'tis already planted, and of propagating itſelf where not, do plain<g ref="char:EOLhyphen"/>ly ſhew, that the true de<g ref="char:EOLhyphen"/>ſign of it is merely Secu<g ref="char:EOLhyphen"/>lar,
+<pb n="74" facs="tcp:101294:43"/> contrived wholly for Temporal ends and pur<g ref="char:EOLhyphen"/>poſes of Dominion, Ava<g ref="char:EOLhyphen"/>rice, Luſt, and in a word, of Univerſal Tyranny o<g ref="char:EOLhyphen"/>ver the Souls and Bodies of Men and Women.</p>
+            <p>I verily believe its grea<g ref="char:EOLhyphen"/>teſt and moſt Learned Ec<g ref="char:EOLhyphen"/>cleſiaſtick Aſſertours ſee and know the trick well enough, though they keep the Myſterie as ſafe in the Conclave, as the <hi>Trojans</hi> did the <hi>Palladi<g ref="char:EOLhyphen"/>um</hi> in <hi>Minerva</hi>'s Tem<g ref="char:EOLhyphen"/>ple.</p>
+            <pb n="75" facs="tcp:101294:43"/>
+            <l> 
+               <hi>No Cabaliſts of State could e're trepan,</hi>
+            </l>
+            <l>
+               <hi>With ſuch firm ſubtlety as</hi> Rome's <hi>Divan,</hi> ſaith one.</l>
+            <p>And thus the main Syſtem of their Religion being wholly relative to Poli<g ref="char:EOLhyphen"/>tical practicks, no wonder that all our Diſputes ableſt Writings, and trueſt Re<g ref="char:EOLhyphen"/>monſtrances againſt them do ſo little good: They may indeed debar them from proſelyting men ſo eaſily as before; but the two Poles ſhall ſooner
+<pb n="76" facs="tcp:101294:44"/> meet, than the ſtrongeſt Truths and Demonſtrati<g ref="char:EOLhyphen"/>ons ſhall reduce one of the great Churchmen of <hi>Rome.</hi>
+            </p>
+            <p>Alas, the Caſe is quite of another nature: nor do they themſelves think it worth while to enter the Liſts of publick Diſ<g ref="char:EOLhyphen"/>putation, or anſwer the repeated oppoſitions of our Learned Churchmen, unleſs (as our chief Diſ<g ref="char:EOLhyphen"/>ſenters) it be to comply with the Expectations of their own Herd; and then too, the main deſign is (not to argue impartially
+<pb n="77" facs="tcp:101294:44"/> and ſolidly) but ſtill more and more to amuſe and intangle the poor igno<g ref="char:EOLhyphen"/>rant Admirers of, <hi>An An<g ref="char:EOLhyphen"/>ſwer to Dr.</hi> &amp;c.</p>
+            <p>
+               <hi>Si Pergama dextrâ de<g ref="char:EOLhyphen"/>fendi poſſent,</hi> &amp;c. comes always in my mind, when I conſider that the pre<g ref="char:EOLhyphen"/>ſent poſture of affairs is rather worſe than better, and at the ſame time think on the Writings of Biſhop <hi>Jewel, Laud,</hi> and thoſe other Heroe's that did and ſaid all that was poſſible almoſt, to little purpoſe alas! and pray what can we do more?</p>
+            <pb n="78" facs="tcp:101294:45"/>
+            <p> They will not ſo much as argue to ſatisfie any ſcruple of their own Diſ<g ref="char:EOLhyphen"/>ciples; the device of Im<g ref="char:EOLhyphen"/>plicite Faith ſuperſedes their trouble as to that. And if by chance among them a gaul'd Conſcience offer to kick, (though ne<g ref="char:EOLhyphen"/>ver ſo ſorely pinch'd) one ſharp word or frown of the Inquiſition, ſilences the poor Soul better (to their purpoſe) than a thouſand Syllogiſms: <hi>And thus theſe men love darkneſs rather than light, becauſe their deeds are evil.</hi>
+            </p>
+            <pb n="79" facs="tcp:101294:45"/>
+            <p> How quite contrary to all this, is the proceed of our Church? how dif<g ref="char:EOLhyphen"/>ferent is her Carriage? how frequent, earneſt, and tender are her applicati<g ref="char:EOLhyphen"/>ons to the Diſſenting Brethren? With what reluctancie and force to herſelf, (after all means fail) are reſtraints and penalties gently apply'd as the <hi>Ratio ultima re<g ref="char:EOLhyphen"/>rum,</hi> which ſhe is far from making the Inſcrip<g ref="char:EOLhyphen"/>tion of loud and infallible Artillery?</p>
+            <p>And yet what Seditious Murmurs do theſe men re<g ref="char:EOLhyphen"/>turn
+<pb n="80" facs="tcp:101294:46"/> to her ſoft &amp; paſſio<g ref="char:EOLhyphen"/>nate Invitations? What In<g ref="char:EOLhyphen"/>novations &amp; Changes do they not ſecretly attempt? What evil Repreſentati<g ref="char:EOLhyphen"/>ons of Church and Go<g ref="char:EOLhyphen"/>vernment do they not ſcatter? What ſhuffling peeviſh returns do they make to the Writings and Sermons of good and wiſe Men, in vindication of regular Piety and true Loyalty? And they are ſo bold too, as to preſs Gods holy Word for the juſtification of all this ob<g ref="char:EOLhyphen"/>ſtinacy; but 'tis not the firſt time that Holy Scrip<g ref="char:EOLhyphen"/>ture
+<pb n="81" facs="tcp:101294:46"/> hath been the Argu<g ref="char:EOLhyphen"/>ment, when the deſtructi<g ref="char:EOLhyphen"/>on of the Allegatour hath proved the conſequence. <note place="margin">2 Pet. 3. 16.</note>
+            </p>
+            <p>Our Church, by ap<g ref="char:EOLhyphen"/>plying the ſoft and gen<g ref="char:EOLhyphen"/>tle Remedies of Statuta<g ref="char:EOLhyphen"/>ble puniſhments, and le<g ref="char:EOLhyphen"/>gal Mulcts, never inten<g ref="char:EOLhyphen"/>ded to force groſs blind<g ref="char:EOLhyphen"/>neſs, or impoſe the Ty<g ref="char:EOLhyphen"/>ranny of Implicite Faith on any man; but rather the quite contrary, ſhe carefully and wiſely con<g ref="char:EOLhyphen"/>ſidered that a little ſmart<g ref="char:EOLhyphen"/>ing might make the ſcales peel off from their Eyes,
+<pb n="82" facs="tcp:101294:47"/> &amp; by ſome little bitterneſs ſhe deſigned no more harm to them, than <hi>Tobi<g ref="char:EOLhyphen"/>as</hi> did to his Father, by throwing Gall in his Eyes to make him ſee.</p>
+            <p>And here I'll preſume to inſert the words of a Lear<g ref="char:EOLhyphen"/>ned &amp; Reverend Gentle<g ref="char:EOLhyphen"/>man now among us: <hi>We,</hi> ſaith he, <hi>that are Miniſters of the Church of</hi> England <hi>may be content; nay, we may really wiſh that all our Laity had as much true ſolid underſtanding in Religion as our Clergy. We can get no advantage by your want of knowledge,</hi>
+               <pb n="83" facs="tcp:101294:47"/> 
+               <hi>no more than you can do by ours: We have no Spiritual Cheat with which to delude you, for the repreſenting of which we ſhould ſtand in need either of darkneſs, or of a falſe light. We have nothing in our publick Profeſſion which the wiſeſt men, the moſt pious Chriſtians may not outwardly practice; nothing in our Faith which they ought not inwardly to believe. We know and are well aſſured, that the onely reaſon why our Church is not more gene<g ref="char:EOLhyphen"/>rally embraced, and ad<g ref="char:EOLhyphen"/>mired,</hi>
+               <pb n="84" facs="tcp:101294:48"/> 
+               <hi>is, becauſe the pu<g ref="char:EOLhyphen"/>rity of its Doctrine, the ſobriety of its Devotion, the moderation of its Diſcipline, the largeneſs of its Charity, are not more impartially and calmly examined, more generally underſtood.</hi>
+            </p>
+            <p>
+               <hi>Our Church in its Spiri<g ref="char:EOLhyphen"/>tual State as you are Chriſtians, is moſt con<g ref="char:EOLhyphen"/>formable to the rules of Chriſt, to the Apoſtolick practice, to the Primitive Inſtitutions: In its ratio<g ref="char:EOLhyphen"/>nal State as you are Men, its Doctrines are very a<g ref="char:EOLhyphen"/>greeable to the reaſon of</hi>
+               <pb n="85" facs="tcp:101294:48"/> 
+               <hi>Mankind; its Precepts moſt becoming the pureſt and ſtricteſt Laws of Na<g ref="char:EOLhyphen"/>ture, Vertue, and Morality: In its Political State as ye are</hi> Engliſhmen, <hi>its Inte<g ref="char:EOLhyphen"/>reſt is inſeparable from that of our Nation and Government.</hi>
+            </p>
+            <p>
+               <hi>We are therefore ſo far from being jealous of your moſt curious &amp; exact ſearch into the Practice and Prin<g ref="char:EOLhyphen"/>ciples of our Church, that we deſire it; nay, we moſt earneſtly beſeech it. We are in no danger from Mens moſt ſubtle inquiry into it; we may be from</hi>
+               <pb n="86" facs="tcp:101294:49"/> 
+               <hi>their utter careleſneſs, and indifferency towards it.</hi>
+            </p>
+            <p>
+               <hi>We are not againſt any Mans ſeeing Spiritual Truths; onely we would not have the blind pre<g ref="char:EOLhyphen"/>ſume to teach others to ſee: We would not have Men think they ſee, when they do not, which is the most certain way for them never to ſee at all: we would have you know as much as you can; onely we would have you believe that both you and we may know much more than we do: we intreat you to ſtrive to know all in a</hi>
+               <pb n="87" facs="tcp:101294:49"/> 
+               <hi>right way, by ſo<g ref="char:EOLhyphen"/>ber</hi> 
+               <note place="margin">Dr. <hi>Sprats</hi> Sermon at <hi>Whitehall</hi> before His Majeſty.</note> 
+               <hi>degrees, for right purpoſes, uſes and ends.</hi>
+            </p>
+            <p>I will here be bold to ſubjoin by way of Corol<g ref="char:EOLhyphen"/>lary to the fore-going ex<g ref="char:EOLhyphen"/>cellent words: It hath puzled my neareſt and niceſt Inquiſition, and plunged my cloſeſt ſcru<g ref="char:EOLhyphen"/>tiny in deep amazement, when I have conſidered that ſo many of our Countrymen ſhould out of an odd peeviſh hu<g ref="char:EOLhyphen"/>mour, and moſt unac<g ref="char:EOLhyphen"/>countable Caprice, for<g ref="char:EOLhyphen"/>ſake that ſober, decent
+<pb n="88" facs="tcp:101294:50"/> way of Worſhip, which the Eſtabliſhed Law preſ<g ref="char:EOLhyphen"/>ſes, which their gracious King and Governour himſelf ſtrictly obſerves, together with the Loyal Nobility and Gentry, and the Reverend and Learn<g ref="char:EOLhyphen"/>ed Clergy of this Land; that they ſhould (I ſay) leave theſe good, theſe great, theſe wiſe Exam<g ref="char:EOLhyphen"/>ples, contrary to the obe<g ref="char:EOLhyphen"/>dient humble temper of Chriſtians, contrary to the prudence and intereſt of rational men, and con<g ref="char:EOLhyphen"/>trary to the honeſt good nature of true Engliſh<g ref="char:EOLhyphen"/>men:
+<pb n="89" facs="tcp:101294:50"/> And all this out of a blind and ignorant com<g ref="char:EOLhyphen"/>plyance to the Inſinua<g ref="char:EOLhyphen"/>ting hypocritical perſwa<g ref="char:EOLhyphen"/>ſions of a few leading prejudiced Presbyters. For, true ſcruple of Con<g ref="char:EOLhyphen"/>ſcience cannot be ſaid to urge them to this Non<g ref="char:EOLhyphen"/>conformity; not one of five hundred underſtand<g ref="char:EOLhyphen"/>ing the intrinſick ſtate of the Queſtion, or the true nature of the Controver<g ref="char:EOLhyphen"/>ted point, any more than they do <hi>Arabick:</hi> But granting that they could plead Chriſtian Scruple, how far would even that
+<pb n="90" facs="tcp:101294:51"/> fall ſhort of Juſtification, ſeeing that the Commands to Obedience are ſo abſo<g ref="char:EOLhyphen"/>lute, ſo plain, ſo poſitive, and the reaſons for Non-conformity (even at beſt) ſo obſcure, ſo weak, ſo dubious? In a word, the Faith of our Separatiſts is as blind and implicite as that of the Papiſts; the deſign of their Doctrines as Subtle, Senſual, and Secular.</p>
+            <p>But to return to the Romaniſts: that the trick ſhould paſs upon the com<g ref="char:EOLhyphen"/>mon Herd of the Igno<g ref="char:EOLhyphen"/>rant and Credulous, is
+<pb n="91" facs="tcp:101294:51"/> not at all ſtrange, nor that the well-contriv'd Im<g ref="char:EOLhyphen"/>poſture ſhould go down pretty cleverly with the middle ſort of Mankind, is it much to be wondred at; but that ſo notorious, ſo bold, ſo ſawcie a cheat, ſhould engage the Wiſe and Noble, nay Kings and Princes, to a complyance ſo mean and ſervile (as heretofore eſpecially) this is a perfect Prodigie to me.</p>
+            <p>What depth of ſubtil<g ref="char:EOLhyphen"/>ty is implyed in the Do<g ref="char:EOLhyphen"/>ctrine of the Popes Su<g ref="char:EOLhyphen"/>premacy and Infallibility, the
+<pb n="92" facs="tcp:101294:52"/> baſis of implicite Faith, indiſputable obedience, &amp; abſolute dependance on the Church and Court of <hi>Rome?</hi> What great and glorious Scenes of pomp, pride, and ſplendour, are conſequential to the ne<g ref="char:EOLhyphen"/>ceſſity of making all de<g ref="char:EOLhyphen"/>ferences and humble ap<g ref="char:EOLhyphen"/>peals to his Holineſs?</p>
+            <p>The Doctrine of Pur<g ref="char:EOLhyphen"/>gatory is a moſt excellent bait for a wealthy ſinner on his death-bed: how eagerly and zealouſly he exchanges his Bags for Maſſes, that he may not be ſtopt at that hot
+<pb n="93" facs="tcp:101294:52"/> ſtage, but be immediately diſpatch'd to the more a<g ref="char:EOLhyphen"/>greeable warmth of <hi>Abra<g ref="char:EOLhyphen"/>ham</hi>'s boſom? Thus by a pretty kind of Platonick Chymiſtry, the ſubtle Prieſt makes real Gold, by an imaginary &amp; fictitious fire.</p>
+            <p>But above all, to dive into and diſcover the Tempers and Inclinati<g ref="char:EOLhyphen"/>ons, Deſigns and Contri<g ref="char:EOLhyphen"/>vances, Actions and Paſſi<g ref="char:EOLhyphen"/>ons, nay the moſt retired Thoughts of Men and Women, Auricular Con<g ref="char:EOLhyphen"/>feſſion is an unparallel'd device: 'Tis certainly the moſt impudent Incroach<g ref="char:EOLhyphen"/>ment
+<pb n="94" facs="tcp:101294:53"/> and unnatural piece of Tyranny that was ever impos'd on Mankind; I mean, as 'tis abuſed and disfigured by them, from its firſt good deſigne and Inſtitution.</p>
+            <p>I will now end theſe brief Remarks on the <hi>Ro<g ref="char:EOLhyphen"/>miſh</hi> Religion, with one Trick more of theirs, which appeared in the Death of Mr. <hi>Langhorne</hi> and the late Jeſuits; which hath afforded matter of much diſcourſe to all, and of no ſmall wonder and amuſement to ſome. For my own part, I verily be<g ref="char:EOLhyphen"/>lieve,
+<pb n="95" facs="tcp:101294:53"/> that if the Depoſi<g ref="char:EOLhyphen"/>tions of the King's Wit<g ref="char:EOLhyphen"/>neſſes (as the Law always allows and ſuppoſes them to be, ſo) were not <hi>de facto</hi> true and evident; if the Proceedings of the <hi>Court</hi> were not moſt im<g ref="char:EOLhyphen"/>partial, juſt and ſteady, and by conſequence the Parties brought in guilty by an honeſt and unbiaſſed Verdict; if all this (I ſay) were not ſo, then there is no Truth or Certainty under the Sun. And therefore that Learned and Rational Men ſhould at the point of Death fondly
+<pb n="96" facs="tcp:101294:54"/> conceive, that any Diſpen<g ref="char:EOLhyphen"/>ſation from <hi>Rome,</hi> or their reciprocal Abſolutions, could poſſibly expiate the Guilt and Crime of a po<g ref="char:EOLhyphen"/>ſitive, deliberate, mortal ſin (I mean, the ſtedfaſt Abjuration of true matter of Fact) this is a Preſum<g ref="char:EOLhyphen"/>ption of that Force and Contradiction to the <hi>Ge<g ref="char:EOLhyphen"/>nius</hi> of Chriſtianity, and ſo contrary to the very Eſſentials and Fundamen<g ref="char:EOLhyphen"/>tals of Humane Nature; that I know not what to reſolve it into, but a to<g ref="char:EOLhyphen"/>tal dereliction of God Almighty, or ſome latent
+<pb n="97" facs="tcp:101294:54"/> Frenzy in thoſe wretched Delinquents.</p>
+            <p>I have indeed heard ſome Learned Men urge the ſtrong force of Edu<g ref="char:EOLhyphen"/>cation and Inſtitution, as a competent cauſe to ri<g ref="char:EOLhyphen"/>vet this Principle into the perſwaſions of the <hi>Romiſh Agents:</hi> What e're it is, it affords matter of my<g ref="char:EOLhyphen"/>ſterious difficulty to me; and what Principle ſoever it owns, certainly the reſolute Effects it produ<g ref="char:EOLhyphen"/>ces, muſt needs belong to a very forcible Cauſe, ſince we ſee this firm Ob<g ref="char:EOLhyphen"/>ſtinacy retains its Vigour
+<pb n="98" facs="tcp:101294:55"/> in Attempts of the laſt danger, and at the dread<g ref="char:EOLhyphen"/>ful point of unavoidable Death too.</p>
+            <p>'Tis true, that the Bi<g ref="char:EOLhyphen"/>ſhop and Spiritual Senate of <hi>Rome</hi> exhibit all the <hi>Machiavilian Maximes,</hi> (which they without ex<g ref="char:EOLhyphen"/>ception call in to eſta<g ref="char:EOLhyphen"/>bliſh and advance their <hi>Secular and Eccleſiaſtick Politie)</hi> under the ſpecious ſtamp of Divine Autho<g ref="char:EOLhyphen"/>rity, and crown the moſt horrid Enterprizes and unnatural Villanies with the additional advantage of <hi>Merit;</hi> this (if firmly
+<pb n="99" facs="tcp:101294:55"/> believed, but there lies the difficulty) muſt needs infuſe as much Courage and Reſolution, as the <hi>Arabian Elyſium</hi> did into the Primitive <hi>Aſſaſſins,</hi> or <hi>Mahomet</hi>'s Paradiſe doth into the <hi>Ottoman</hi> Souldi<g ref="char:EOLhyphen"/>ers. For Superſtition of this kinde deeply grafted, hath always proved the ſtrongeſt ſpring and moſt vigorous motive of de<g ref="char:EOLhyphen"/>ſperate deeds and devices: Beſides, the indiſputable Obedience that the <hi>Jeſu<g ref="char:EOLhyphen"/>itick Order</hi> is ſworn into to their reſpective Supe<g ref="char:EOLhyphen"/>riour, is of no ordinary
+<pb n="100" facs="tcp:101294:56"/> force and influence to theſe Exploits, and of grand import to the pur<g ref="char:EOLhyphen"/>poſes of the <hi>Roman Con<g ref="char:EOLhyphen"/>clave.</hi>
+            </p>
+            <p>And this ſuggeſts how furiouſly in oppoſition to this extreme of blinde compliance, ſome of our preſent Fanaticks run into the other contrary, and flatly deny that there is any Eccleſiaſtick Superi<g ref="char:EOLhyphen"/>ority at all; others affirm that the <hi>Epiſcopal</hi> Functi<g ref="char:EOLhyphen"/>on is at beſt diſtinct, not in Degree and Fact, but in Title and Dignity only, to that of Preſbyter; con<g ref="char:EOLhyphen"/>trary
+<pb n="101" facs="tcp:101294:56"/> to the plain uſage of the Catholick Church, and the practice of Antiquity in all Ages. And with theſe men forſooth <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is no more of Divine Right, than the little Of<g ref="char:EOLhyphen"/>fice of <hi>Overſeer</hi> (its name<g ref="char:EOLhyphen"/>ſake) in ſome of our <hi>Pa<g ref="char:EOLhyphen"/>rochial</hi> Societies.</p>
+            <p>The redreſs of this, as of other crazy Opinions of our modern <hi>Sectaries,</hi> is apparently <hi>Eccentrick</hi> to the power and force of Argument; the proper Remedy and effectual Cure belonging moſt cer<g ref="char:EOLhyphen"/>tainly to a ſmarter Appli<g ref="char:EOLhyphen"/>cation,
+<pb n="102" facs="tcp:101294:57"/> than that of ſoft and gentle Reaſonings.</p>
+            <p>And now 'tis high time to tell you, how that by theſe brief occaſional re<g ref="char:EOLhyphen"/>marks on the corruptions of Chriſtianity from the Ambition and Avarice of ſome <hi>Profeſſors,</hi> from <hi>En<g ref="char:EOLhyphen"/>thuſiaſtick</hi> whimſies, from the ſenceleſs Subtleties of the <hi>Schoolmen</hi> and <hi>Caſu<g ref="char:EOLhyphen"/>iſts,</hi> from ſome cramp words and forc'd Alluſi<g ref="char:EOLhyphen"/>ons out of <hi>Ariſtotle,</hi> from the <hi>Romiſh</hi> Impoſtures, and <hi>Phanatick</hi> Hypocriſie, I have at leaſt hit my de<g ref="char:EOLhyphen"/>ſigne in the Negative, by
+<pb n="103" facs="tcp:101294:57"/> which you may gueſs of what Religion I am not of.</p>
+            <p>Truely, I am heartily ſorry that the true Tree of Life, Chriſtianity, ſhould be branched out into ſo many Diviſions, and that our grand <hi>Enemy</hi> hath not only <hi>ſowed tares in our field,</hi> but inſerted ſpurious graffs here too: however, my firm and faithful de<g ref="char:EOLhyphen"/>pendence is on that Branch which hath an undeniable riſe and growth from the old Catholick and Apo<g ref="char:EOLhyphen"/>ſtolick ſtock, and from whence <hi>(Zacheus-like)</hi>
+               <pb n="104" facs="tcp:101294:58"/> 
+               <hi>Luke</hi> 19. 4, 5. I have a Call (I hope) as well as a full and perfect View of my bleſſed Saviour, from a<g ref="char:EOLhyphen"/>mongſt the vulgar crowd of Schiſms and Hereſies: In a word, I am not ſo much of Education, much leſs of Intereſt or Coacti<g ref="char:EOLhyphen"/>on, as of free, yet firm and rational choice, a Member of the Church of <hi>England,</hi> as now by Law eſtabliſht.</p>
+            <p>And yet Education, by an <hi>Epidemick</hi> Calamity, hath in all Countreys and Ages been the beſt Title perhaps, that the <hi>Bulk</hi> of Mankinde could plead to
+<pb n="105" facs="tcp:101294:58"/> their Religion: That 'tis ſo now amongſt the <hi>grand Monde</hi> of Mahometans, Jews and Pagans, is I think not to be diſputed. And indeed the difficulties are ſo great, and the methods ſo nice of diſengaging na<g ref="char:EOLhyphen"/>tural Reaſon from the ſtrong entanglements of Prejudice, Education, and National Intereſt, that I think it to be almoſt mo<g ref="char:EOLhyphen"/>rally impoſſible (all cir<g ref="char:EOLhyphen"/>cumſtances weighed) for theſe Infidels to raiſe and refine their groſs Appre<g ref="char:EOLhyphen"/>henſions to a due and ſo<g ref="char:EOLhyphen"/>ber Scrutiny of Chriſtian
+<pb n="106" facs="tcp:101294:59"/> Truths: And therefore to talk to them of the Trini<g ref="char:EOLhyphen"/>ty, Incarnation, Crucifixi<g ref="char:EOLhyphen"/>on, Reſurrection, and the like other Myſteries of our Religion, would but produce the ſame incre<g ref="char:EOLhyphen"/>dulous wonder, as to re<g ref="char:EOLhyphen"/>peat and plead for ſome Fables in the <hi>Metamor<g ref="char:EOLhyphen"/>phoſis.</hi>
+            </p>
+            <p>For if the ripe reaſon of learned <hi>Nicodemus</hi> (in the very midſt of Mira<g ref="char:EOLhyphen"/>cles) could at beſt but ar<g ref="char:EOLhyphen"/>rive to a doubtful Queſti<g ref="char:EOLhyphen"/>on, <hi>Joh.</hi> 3. 9. <hi>How can theſe things be?</hi> puzzled (as appears) by the one only
+<pb n="107" facs="tcp:101294:59"/> Doctrine of Regenera<g ref="char:EOLhyphen"/>tion; if he could hardly reliſh theſe <hi>Living Waters</hi> at the Fountain-head, well may the Streams run muddy through our ſhal<g ref="char:EOLhyphen"/>low conveyances, and prove inſipid, if not nau<g ref="char:EOLhyphen"/>ſeous and ridiculous to theſe ſenceleſs, ſtupid mortals.</p>
+            <p>What ſhall we judge then of the groſs and maſs of mankinde, who lye un<g ref="char:EOLhyphen"/>der prejudice or Ignorance invincible? What diſtinct Regions of Immortality can we aſſigne to many millions of the ſo long
+<pb n="108" facs="tcp:101294:60"/> undiſcovered <hi>Americans?</hi> Amongſt whom were found not only the com<g ref="char:EOLhyphen"/>mon Rules, but ſtrict obſervances <note place="margin">Mountaign</note> too of Juſtice, Veracity and Sobriety?</p>
+            <p>In what claſſis and de<g ref="char:EOLhyphen"/>gree of Felicity or Miſery can we range the good old Heathens <hi>Socrates, Se<g ref="char:EOLhyphen"/>neca,</hi> &amp;c. who living up to the height of their Principles (as ſome think, thô I have good reaſon to doubt it) were <hi>a Law unto them<g ref="char:EOLhyphen"/>ſelves.</hi> 
+               <note place="margin">Rom. 2. 14.</note> There is no other name given among men,
+<pb n="109" facs="tcp:101294:60"/> whereby we muſt beſaved, ſaith the <hi>Apostle,</hi> but the Name of <hi>Jeſus,</hi> Act. 4. 12. What, ſhall we fondly ſeign a middle ſtate, a <hi>Limbus Philoſophorum?</hi> For 'tis uncharitable to conclude abſolutely and cruelly, that the Merciful Good God will deſtroy the work of his own Hands.</p>
+            <p>Perhaps the moſt ratio<g ref="char:EOLhyphen"/>nal refuge in this caſe, is to preſume, that our gracious Father by ways beſt known to himſelf, might impart (if not a Revela<g ref="char:EOLhyphen"/>tion, yet) an Application
+<pb n="110" facs="tcp:101294:61"/> of the Name and Merits of the holy Jeſus to theſe juſt and ſober <hi>Moraliſts,</hi> if they were indeed really ſo.</p>
+            <p>But as to my unſpeak<g ref="char:EOLhyphen"/>able Peace and Comfort I am <hi>a Chriſtian</hi> of the Church of <hi>England;</hi> ſo to my ineſtimable honour and glory, I am <hi>a Prieſt</hi> of the moſt High God, and received my <hi>Authority</hi> and Commiſſion from my Lord and Maſter Jeſus, rightly and truely, by the hands of <hi>Epiſcopacy</hi> and the <hi>Presbytery.</hi>
+            </p>
+            <p>And as I then felt no
+<pb n="111" facs="tcp:101294:61"/> unuſual Impulſes of an <hi>ex<g ref="char:EOLhyphen"/>traordinary Spirit,</hi> no new Light or Revelation, nor any other <hi>Enthuſiaſtick Emotions</hi> of an over-hea<g ref="char:EOLhyphen"/>ted Imagination: ſo neither did I rudely and raſhly intrude without Call, a<g ref="char:EOLhyphen"/>mongſt my Maſters hired Labourers: For I had a fair Invitation from Gods ordinary Goodneſs and Providence to work in his Vineyard, and I found in my ſelf an honeſt Reſoluti<g ref="char:EOLhyphen"/>on and hearty Inclination ſo to do; which truely I lookt upon as a ſufficient warrant and juſtification
+<pb n="112" facs="tcp:101294:62"/> for my Affirmative An<g ref="char:EOLhyphen"/>ſwer to that firſt <hi>Ordina<g ref="char:EOLhyphen"/>tion-Queſtion, Do you think in your heart that you be truely called,</hi> &amp;c. <hi>to the Order and Miniſtry of Prieſthood?</hi>
+            </p>
+            <p>And now as I verily believe this divine <hi>Cha<g ref="char:EOLhyphen"/>racter</hi> to be indelible, ſo I eſteem of it as the moſt noble ſtamp and Impreſs humane Nature is capable of, whilſt cloathed with clay. I am not ſo much ſurprized as troubled, to ſee the common deriſion and contempt that attends the Clergy: For thoſe
+<pb n="113" facs="tcp:101294:62"/> Scorners that cavil at the very <hi>Faith,</hi> and queſtion the <hi>Doctrine</hi> itſelf, cannot reaſonably be expected to regard and reverence the <hi>Diſpenſers.</hi> And ſince this <hi>Town</hi> and <hi>Kingdome</hi> is infeſted with ſuch ſwarms of <hi>Deiſts, Socini<g ref="char:EOLhyphen"/>ans, Atheiſts,</hi> and others, that not only violate the undoubted <hi>Regalia,</hi> but with treaſonable Blaſphe<g ref="char:EOLhyphen"/>my diſpute the Divine <hi>Sovereignty</hi> of <hi>Jeſus;</hi> how ſhould they not affront and outrage the <hi>Ambaſ<g ref="char:EOLhyphen"/>ſadours</hi> of Chriſt? We are, I fear, making fair
+<pb n="114" facs="tcp:101294:63"/> 
+               <hi>Advances,</hi> and by very ſenſible degrees too, to that diſmal ſtate of <hi>Inſi<g ref="char:EOLhyphen"/>delity,</hi> the proſpect of which made our Saviour exclaim long ago, <hi>When the Son of Man cometh, ſhall he ſinde</hi> Faith <hi>upon Earth?</hi> Luk. 18. 8.</p>
+            <p>And yet I have obſer<g ref="char:EOLhyphen"/>ved, that our Adverſaries raiſe much of their pert<g ref="char:EOLhyphen"/>neſs and audacity to de<g ref="char:EOLhyphen"/>ſpiſe and abuſe us, from a certain <hi>ſheepiſh dejection</hi> of ſpirit that poſſeſſes ma<g ref="char:EOLhyphen"/>ny: Thus we our ſelves, by a baſe and daſtardly Cowardiſe, antedate our
+<pb n="115" facs="tcp:101294:63"/> own contempt, and poorly fancying our ſelves always liable and open to affront, like ſuſpicious eaſie Slaves, we (by this means) become of our Enemies party, and invite and anticipate the approaching <hi>Deſpight,</hi> by letting our Countenances fall, and ſeeming little in our own Eyes: This is exactly to make a gap for every inſolent pragmatical Aſs to tread over. Inſtances of this kinde I have not ſeldom ſeen in ſome mean-ſpirited, poor Divines, whoſe little Souls ebbe and flow with the chan<g ref="char:EOLhyphen"/>ges
+<pb n="116" facs="tcp:101294:64"/> of Fortune, and who want a true ſenſe of the Excellency and Noble worth of their high Cal<g ref="char:EOLhyphen"/>ling, ſervilely valuing themſelves by the falſe meaſures of this ſilly, un<g ref="char:EOLhyphen"/>reaſonable, degenerate Age. I finde that a man in this caſe hath juſt as much reſpect as he gives himſelf; and a manly Con<g ref="char:EOLhyphen"/>fidence and well-bred Aſ<g ref="char:EOLhyphen"/>ſurance here, is not at all inconſiſtent with Chriſti<g ref="char:EOLhyphen"/>an Meekneſs and Humility. But alas! We have too many creep into the Prieſthood, and ſteal into
+<pb n="117" facs="tcp:101294:64"/> the <hi>Sanctum Sanctorum</hi> of the Chriſtian Tabernacle, <hi>young</hi> and <hi>raw,</hi> hardly yet Maſters of common Phi<g ref="char:EOLhyphen"/>loſophy, but in fruitleſs <hi>Theory;</hi> nor are they ar<g ref="char:EOLhyphen"/>rived to the proficiency of the poor <hi>Stoicks,</hi> in oppoſing a ſtedfaſt Cou<g ref="char:EOLhyphen"/>rage and Equality of Soul to the rude <hi>ſhock</hi> of Con<g ref="char:EOLhyphen"/>tempt and Poverty: How then ſhall they retain Breath and Patience ſuffi<g ref="char:EOLhyphen"/>cient to run through thoſe ſeveral rugged ſtages of Self denial and Mortifica<g ref="char:EOLhyphen"/>tion, which the proud and inſolent dealing of this
+<pb n="118" facs="tcp:101294:65"/> world requires, and the Doctrine of Jeſus propo<g ref="char:EOLhyphen"/>ſes? <hi>Contempt, Poverty,</hi> and <hi>Death,</hi> (that dreadful <hi>Triumvirate</hi> of mundane Terrours) which the cou<g ref="char:EOLhyphen"/>rageous Reaſon of the old Philoſophers cou'd baffle, is too hard for the Reaſon and Faith too of many <hi>freſh-water</hi> Souldiers in our Church-Militant.</p>
+            <p>'Tis poſſible, 'tis true, for a wiſe man by a ſtea<g ref="char:EOLhyphen"/>dy courſe of manly con<g ref="char:EOLhyphen"/>duct to eſcape Contempt; but the approaches of Poverty are often una<g ref="char:EOLhyphen"/>voidable, and the rude<g ref="char:EOLhyphen"/>neſs
+<pb n="119" facs="tcp:101294:65"/> of its attendants almoſt inſufferable. This ſtate and condition (eſpecially if ſuc<g ref="char:EOLhyphen"/>ceſſive to late Wealth and Honour) is the beſt <hi>Teſt</hi> and Touchſtone of true worth and <hi>Magnanimity:</hi>
+            </p>
+            <p>
+               <hi>Hic animus opus, hic pectore firmo.</hi> Virg. Aeneid. l. 6.</p>
+            <p>'Tis an eaſie matter, when full of Riches and Honour, to fancy we have all Ver<g ref="char:EOLhyphen"/>tues; and the fawning world ſhall avouch it too.</p>
+            <l>—Omnis enim res</l>
+            <l>Divitiis parent, quas, qui conſtruxerit, ille</l>
+            <pb n="120" facs="tcp:101294:66"/>
+            <p> 
+               <hi>Claerus erit, fortis, juſtus, ſapiens,</hi> &amp;c. Horat. ſerm. lib. 2. Satyr. 3.</p>
+            <p>Yet I fear, not one of five hundred that rowls in wealth and affluence, hath well <hi>Conned</hi> the hard <hi>Leſſon</hi> which the honeſt <hi>Stoicks</hi> taught in their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. But granting we have arrived to ſome proficiency in the <hi>Abſtinential</hi> Vertues, we muſt not therefore conclude our ſelves truely approved, till we have tried our Strength and Patience to the quick in the ſharp exerciſes of Verſues other
+<pb n="121" facs="tcp:101294:66"/> branch, the <hi>Tolerantial</hi> part, the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> alſo: or, till with St. <hi>Paul</hi> we can true<g ref="char:EOLhyphen"/>ly ſay, <hi>I know both how to be abaſed, and I know how to abound, both to be full and to be hungry, both to abound and to ſuffer need,</hi> Philip. 4. 12.</p>
+            <p>With what <hi>Aſſuming</hi> Gravity and <hi>Magiſterial</hi> A we have I heard rich and great men cenſure and expoſe ſmall miſcarriages and weakneſſes in poor and mean Perſons; when at that very time, the <hi>Re<g ref="char:EOLhyphen"/>prover</hi> himſelf hath been guilty of the ſame Crime,
+<pb n="122" facs="tcp:101294:67"/> and greater too, with ſome little Alteration of the guiſe only; nay, and the advantage ſhall be ſo dex<g ref="char:EOLhyphen"/>terouſly managed on his ſide, as to make it Vertue and <hi>accompliſhment.</hi>
+            </p>
+            <l>
+               <hi>Vos ô Trojugenae vobis ig<g ref="char:EOLhyphen"/>noſcitis, &amp; quae</hi>
+            </l>
+            <l>
+               <hi>Turpia Cerdoni Voleſos, Brutóſque decebunt.</hi> Ju<g ref="char:EOLhyphen"/>ven. Sat. 8.</l>
+            <p>And thus the rich and honourable have not only all Vertues (of courſe) in the Vogue of the world; but they fancie themſelves very devout and religious
+<pb n="123" facs="tcp:101294:67"/> too; at leaſt if their odde kinde of Faith can make them ſo; for they pray moſt commonly without doubting, eſpecially when they ſay, <hi>Give us this day our daily bread,</hi> (knowing their Barns to be full;) <hi>and forgive us,</hi> &amp;c. <hi>as we forgive them that treſpaſs againſt us,</hi> when they finde that no man dares affront them.</p>
+            <p>But to harbour no an<g ref="char:EOLhyphen"/>xious ſollicitude for the morrow, nor in extreme and helpleſs Poverty to entertain any peeviſh di<g ref="char:EOLhyphen"/>ſtruſt of Divine Provi<g ref="char:EOLhyphen"/>dence,
+<pb n="124" facs="tcp:101294:68"/> but to have a chearful Faith and reliance on <note place="margin">
+                  <hi>Mat.</hi> 46.</note> my Heavenly Father, this is Religion: And freely and frequently to forgive my Lives aggreſſour, or the malicious diſturber of my peace, without any the leaſt reſerve of Re<g ref="char:EOLhyphen"/>venge or Rancour, this is Chriſtianity.</p>
+            <p>I have been too much intimate (in vain youth) with the moſt <hi>familiar</hi> Pleaſures of humane Na<g ref="char:EOLhyphen"/>ture; and yet by ſudden and frequent <hi>Intermix<g ref="char:EOLhyphen"/>tures,</hi> as well acquainted
+<pb n="125" facs="tcp:101294:68"/> with the Troubles and Croſſes of this fickle and unconſtant world: But, I thank my God, when <hi>Fortune</hi> hath made the moſt Vexatious <hi>Dou<g ref="char:EOLhyphen"/>bles,</hi> ſhe could never run me to a loſs; nor hath ſhe made one wrinckle of Sorrow or Fear the more in my face, when ſhe hath turned her own into a thouſand frightful <hi>Gri<g ref="char:EOLhyphen"/>maces.</hi> I declare ingenu<g ref="char:EOLhyphen"/>ouſly, that my Soul hath ever kept a ſteady Poiſe, <hi>(if not enclin'd to the im<g ref="char:EOLhyphen"/>patience of Proſperity)</hi> and the moſt <hi>ſtunning</hi>
+               <pb n="126" facs="tcp:101294:69"/> Accidents never <hi>benum'd</hi> my preſence of minde ſo far, but that I have per<g ref="char:EOLhyphen"/>fectly <hi>reaſſured</hi> my ſelf, ſoftned the moſt <hi>piquant</hi> Paſſion, and ſmoothed the rougheſt diſorder of thought, by an hours <hi>Re<g ref="char:EOLhyphen"/>treat</hi> and Meditation, ſay<g ref="char:EOLhyphen"/>ing with old <hi>Eli, It is the Lord, let him do what ſeemeth him good,</hi> 1 Sam. 3. 18. Or to the ſame pur<g ref="char:EOLhyphen"/>poſe with the wiſe <hi>Stoick,</hi>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Epict.</p>
+            <p>To end all this, in my very worſt Calamities, I always concluded, that
+<pb n="127" facs="tcp:101294:69"/> there was need of the greateſt Courage; for then to deſpond, is to be on my Enemies ſide, and by my faint reſiſtance to double the force of the Aſſault: but to deſpair is Frenſie, and poorly to yield the ſtakes, before the Game is up. For what an extreme Madneſs is it to be frigh<g ref="char:EOLhyphen"/>ted with the advantages on the contrary ſide, ſup<g ref="char:EOLhyphen"/>poſing ten thouſand to one againſt me? Why (pray) may not that one ſtill happen? <hi>No man is undone, till he thinks him<g ref="char:EOLhyphen"/>ſelf ſo. Ita eſt vita ho<g ref="char:EOLhyphen"/>minum</hi>
+               <pb n="128" facs="tcp:101294:70"/> 
+               <hi>quaſi cum ludas teſſeris, ſi id quod maximè opus eſt jactu non cadit, id quod cecidit fortè, arte ut corrigas.</hi> Terent.</p>
+            <p>There is no doubt, but the chiefeſt, if not only deſigne of our Prieſtly Miniſtry, is that which our bleſſed Saviour by moſt paſſionate inculcations ur<g ref="char:EOLhyphen"/>ged to <hi>Peter, Joh.</hi> 21. 17. To feed God's ſheep. And to this end, the frequency of the Word, and Sacra<g ref="char:EOLhyphen"/>mental Duties, of Prayer alſo, often publick, with<g ref="char:EOLhyphen"/>out ceaſing private, is of indiſpenſable Neceſſity:
+<pb n="129" facs="tcp:101294:70"/>
+'Tis we more eſpecially, that are to make Prayers and Supplications for all men, for Kings, and for thoſe who are in Authority: 'Tis we <note place="margin">1 <hi>Ti.</hi> 2. 2</note> that muſt make Interceſſi<g ref="char:EOLhyphen"/>on for the People, when God's Judgments are a<g ref="char:EOLhyphen"/>broad; 'tis we that muſt with Faith and Courage ſtand in the gap, when Wrath is gone out from the Lord, and the Plague is begun, <hi>Numb.</hi> 16. 48. 'Tis we that muſt be al<g ref="char:EOLhyphen"/>ways ready to give a rea<g ref="char:EOLhyphen"/>ſonable account of our Hope, and with undaun<g ref="char:EOLhyphen"/>ted
+<pb n="130" facs="tcp:101294:71"/> arguings urge the Do<g ref="char:EOLhyphen"/>ctrine and Faith of Chriſt (to ſome now a days a Stumbling-block, to others Fooliſhneſs, 1 <hi>Pet.</hi> 3. 15.) againſt the growing oppo<g ref="char:EOLhyphen"/>ſitions of Atheiſm, Hereſie and Prophaneneſs. 'Tis we that muſt Preach plain, practical Truths to the people, with the Rules and Fundamental Reaſons of Obedience, Juſtice, So<g ref="char:EOLhyphen"/>briety, Charity; and all this in eaſie and familiar (yet powerful) Applica<g ref="char:EOLhyphen"/>tions; not in <hi>Rhetorical Harangue,</hi> or Affectation of Speech and Geſture,
+<pb n="131" facs="tcp:101294:71"/> which doth but make the ignorant gape, and tickles the Ears of the more knowing; producing per<g ref="char:EOLhyphen"/>haps a plauſible perſwa<g ref="char:EOLhyphen"/>ſion in the one, but ſcarce true Chriſtian Edification in either; and better be<g ref="char:EOLhyphen"/>comes the old <hi>Roman Ro<g ref="char:EOLhyphen"/>ſtrum,</hi> than the Chriſtian <hi>Pulpit.</hi>
+            </p>
+            <p>And ſince the unreaſo<g ref="char:EOLhyphen"/>nable Prejudice of people ſeems now adays to make it almoſt neceſſary, we ſhould endeavour to ob<g ref="char:EOLhyphen"/>tain the Cuſtom and Ha<g ref="char:EOLhyphen"/>bit of talking to them in a familiar way of converſe
+<pb n="132" facs="tcp:101294:72"/> as it were, <hi>(ſalvâ majeſtate verbi)</hi> and (if it may be) wholly without Book.</p>
+            <p>'Tis true, that when the Preachers Eyes and Ge<g ref="char:EOLhyphen"/>ſtures are pointed directly to the Auditory, they are the more likely to give their regards and atten<g ref="char:EOLhyphen"/>tions to him: but again, 'tis ſtrange to me, that theſe ſilly Souls ſhould fancy, that the effects of a nimble Invention and <hi>unsteady curſory Effuſion</hi> to be more the Word of God, than the beſt of a mans ſober thoughts ſqua<g ref="char:EOLhyphen"/>red exactly by the Holy
+<pb n="133" facs="tcp:101294:72"/> Scripture, in Methodick Writing. Matters of Con<g ref="char:EOLhyphen"/>troverſie we ought wholly to decline; for, (beſides that 'tis eaſie to prate where there is none to oppoſe) the people would be kept more obedient and ſafe, if they could al<g ref="char:EOLhyphen"/>together be kept ignorant that there is any oppoſi<g ref="char:EOLhyphen"/>tion in any kinde to the truth of our Doctrines: beſides, what neceſſity is there of telling them (to their dangerous <hi>amuſe<g ref="char:EOLhyphen"/>ment)</hi> what is wrong, as long as we continue them in the right Belief and
+<pb n="134" facs="tcp:101294:73"/> practice of what we know to be true and right?</p>
+            <p>But now I better think on't, ſince our <hi>Schiſmatical</hi> Diſſenters <hi>Compaſs Sea and Land to make one Proſelyte,</hi> Mat. 23. 15. and indefatigably take all op<g ref="char:EOLhyphen"/>portunities by partial and detracting miſrepreſenta<g ref="char:EOLhyphen"/>tions to tell their own Tale firſt, to our no ſmall diſadvantage; it might be perhaps of ſome good conſequence, if our Loy<g ref="char:EOLhyphen"/>ally-affected Miniſters would take frequent Oc<g ref="char:EOLhyphen"/>caſions (not in their pu<g ref="char:EOLhyphen"/>blick Pulpits, but) in their
+<pb n="135" facs="tcp:101294:73"/> ordinary familiar Commu<g ref="char:EOLhyphen"/>nications with their Pa<g ref="char:EOLhyphen"/>riſhioners, to explain and enlarge upon ſuch Points of Publick Duty, and ſound Belief, as theſe few following; that the good People might be diſabu<g ref="char:EOLhyphen"/>ſed from the inſinuating Cheats and Impoſtures of theſe <hi>deal-board Mounte<g ref="char:EOLhyphen"/>banks,</hi> and diſſwaded from giving their Money for that which is not Bread, <hi>Iſai.</hi> 55. 2.</p>
+            <p n="1">I. That the Power and Authority of Kings, is from God.</p>
+            <p n="2">II. That Prerogative is
+<pb n="136" facs="tcp:101294:74"/> accountable to none but God, <hi>Pſal.</hi> 51. 4. But Property and Priviledge in many caſes forfeitable to the Crown.</p>
+            <p n="3">III. That to Depoſe Kings for fear of Arbitrary Government, is as unjuſt as to ſuppoſe a man felo<g ref="char:EOLhyphen"/>niouſly-affected, and ſo hang him afore-hand, leſt he ſhould Steal or Mur<g ref="char:EOLhyphen"/>der.</p>
+            <p n="4">IV. That to draw Ar<g ref="char:EOLhyphen"/>guments from Precedents, and conclude <hi>de facto ad jus,</hi> is as unjuſt a procee<g ref="char:EOLhyphen"/>ding in Politicks, as 'tis often in Law.</p>
+            <p n="5">
+               <pb n="137" facs="tcp:101294:74"/> V. That to fear Arbi<g ref="char:EOLhyphen"/>trary Government, or its Tyrannical Effects, in a King of Great <hi>Britain,</hi> is to ſuppoſe a Moral Impoſ<g ref="char:EOLhyphen"/>ſibility.</p>
+            <p n="6">VI. That the Kingly Government of theſe Realms, as 'tis contem<g ref="char:EOLhyphen"/>per'd with the Rights and Liberties of the Subject, is the happieſt Policy in the world.</p>
+            <p n="7">VII. That <hi>Major ſin<g ref="char:EOLhyphen"/>gulis, minor univerſis,</hi> is bad Logick and worſe Di<g ref="char:EOLhyphen"/>vinity, 2 <hi>Sam.</hi> 18. 3.</p>
+            <p n="8">VIII. That 'tis un<g ref="char:EOLhyphen"/>lawful upon any pretence
+<pb n="138" facs="tcp:101294:75"/> whatſoever, for the Sub<g ref="char:EOLhyphen"/>ject to take up Arms a<g ref="char:EOLhyphen"/>gainſt the King.</p>
+            <p n="9">IX. That Rebellious Innovations always end in Confuſion and Anar<g ref="char:EOLhyphen"/>chy; and redreſs of Grie<g ref="char:EOLhyphen"/>vances that way, hath proved worſe than the Diſeaſe.</p>
+            <p n="10">X. That the Church of <hi>England</hi> (as now by Law eſtabliſh'd) retains the true Catholick and Apoſtolick Faith.</p>
+            <p n="11">XI. That our Gracious Sovereign is in all Cauſes Eccleſiaſtical (as well as Temporal) Supreme Go<g ref="char:EOLhyphen"/>vernour.</p>
+            <p n="12">
+               <pb n="139" facs="tcp:101294:75"/> XII. That a Subjects wiſeſt and ſureſt way is to adhere to the Eſtabliſh'd Religion (in theſe King<g ref="char:EOLhyphen"/>doms) without the leaſt Cavil or Diſpute, if he believes he may be ſaved therein.</p>
+            <p n="13">XIII. That no pre<g ref="char:EOLhyphen"/>tence of ſcruple whatſo<g ref="char:EOLhyphen"/>ever, without plain proofs and demonſtration, can excuſe any Subject from the poſitive Commands to abſolute Obedience in all things Lawful or Indif<g ref="char:EOLhyphen"/>ferent.</p>
+            <p n="14">XIV. That Separate Meetings, and Fanatical
+<pb n="140" facs="tcp:101294:76"/> Conventicles, have been known lurking-holes and refuges of <hi>Romiſh</hi> Prieſts and Jeſuits, and (of con<g ref="char:EOLunhyphen"/>ſequence) Nurſeries of Actors upon the Stage of Rebellion.</p>
+            <p n="15">XV. That, upon an exact review, we have great reaſon to conclude our preſent diviſions to belong to a Principle ve<g ref="char:EOLhyphen"/>ry different from that of Scruple and Tenderneſs.</p>
+            <p n="16">XVI. That Ambition and Avarice are the two great Wheels of the De<g ref="char:EOLhyphen"/>vils Chariot.</p>
+            <p n="17">XVII. That when
+<pb n="141" facs="tcp:101294:76"/> our grand Adverſary de<g ref="char:EOLhyphen"/>ſigns moſt Miſchief, he always hangs out the white Flag of Religion.</p>
+            <p n="18">XVIII. That Liberty of Conſcience commonly proves Licence to be Se<g ref="char:EOLhyphen"/>ditious.</p>
+            <p n="19">XIX. That our Diſ<g ref="char:EOLhyphen"/>ſenting Zealots who plead for it moſt, have been obſerved to grant it leaſt.</p>
+            <p n="20">XX. That the People of this Nation are ac<g ref="char:EOLhyphen"/>quainted with much more than they ſhould know, and much leſs than they ſhould practiſe.</p>
+            <p n="21">XXI. That we can ne<g ref="char:EOLhyphen"/>ver
+<pb n="142" facs="tcp:101294:77"/> have peaceable days, as long as Bulkers and Coblers are Preachers and Couranters.</p>
+            <p n="22">XXII. That <hi>Vox Po<g ref="char:EOLhyphen"/>puli</hi> is not always <hi>Vox Dei,</hi> Mat. 27. 22.</p>
+            <p n="23">XXIII. That the Stool of Repentance and illegal Impoſitions of Oaths on King and Peo<g ref="char:EOLhyphen"/>ple, is a greater piece of Arbitrary Tyranny, than <hi>French</hi> Monarchy, or Kiſſing of the Pope's Toe.</p>
+            <p n="24">XXIV. That the King<g ref="char:EOLhyphen"/>ly Government of this Nation is equally incon<g ref="char:EOLhyphen"/>ſiſtent
+<pb n="143" facs="tcp:101294:77"/> with Popery and Preſbytery.</p>
+            <p n="25">XXV. That the Po<g ref="char:EOLhyphen"/>wer and Riches of the King is the Peace and Proſperity of the People.</p>
+            <p n="26">XXVI. That 'tis im<g ref="char:EOLhyphen"/>poſſible for Peace and Godlineſs to continue long in Church or State, under a general Tolera<g ref="char:EOLhyphen"/>tion of Schiſmatical and Factious Opinions in mat<g ref="char:EOLhyphen"/>ters of Religion, <hi>Mat.</hi> 12. 25.</p>
+            <p>Theſe ſhort <hi>Aphoriſms</hi> I preſume to inſert by way of <hi>Eſſay</hi> only, and as imperfect <hi>Hints</hi> of what
+<pb n="144" facs="tcp:101294:78"/> wiſer Heads and abler Judgments may do in ſtronger and more ſuitable <hi>Applications</hi> to the good <hi>People</hi> of this diſtracted Kingdome.</p>
+            <p>But before I wholly leave this point, it may be worth while to ob<g ref="char:EOLhyphen"/>ſerve, by what an igno<g ref="char:EOLhyphen"/>rant, ſilly Miſtake, the <hi>dull Teachers</hi> in our Separate <hi>Aſſemblies</hi> conclude of the Power and Prevalency of their Doctrine, from the ſullen <hi>cloudineſs</hi> of Coun<g ref="char:EOLhyphen"/>tenance, and <hi>tumultuous</hi> diſorder it cauſes in the Paſſions of their Female
+<pb n="145" facs="tcp:101294:78"/> 
+               <hi>Anditory,</hi> rather than from any <hi>Serenity</hi> and clearneſs of Minde and Under<g ref="char:EOLhyphen"/>ſtanding: For I have very good grounds to believe, that all this noiſe hath left the <hi>Intellect</hi> untoucht, and that it hath not in any degree reacht the <hi>Seat</hi> of their Reaſon and Judgment. And thus ſuch <hi>Artiſts</hi> as can beſt by ten<g ref="char:EOLhyphen"/>der Expreſſions, and paſſi<g ref="char:EOLhyphen"/>onate Applications, <hi>ſoften, mellow</hi> and <hi>diſſolve</hi> the <hi>looſe</hi> and eaſie Paſſions of ſilly Women, are (for<g ref="char:EOLhyphen"/>ſooth) the only able, <hi>po<g ref="char:EOLhyphen"/>werful men,</hi> and they
+<pb n="146" facs="tcp:101294:79"/> 
+               <hi>(good Souls!)</hi> can <hi>Edifie</hi> under none but them: When alas, all this ſeeming effectual Operation, is no better than juſt thus; <hi>viz.</hi> the <hi>whining Holderforth</hi> and the Female Congre<g ref="char:EOLhyphen"/>gation being at that time <hi>tuned</hi> (like <hi>two Viols)</hi> exactly alike by the <hi>Ma<g ref="char:EOLhyphen"/>gick of Enthuſiaſtick Sympathy,</hi> their <hi>Notes</hi> cor<g ref="char:EOLhyphen"/>reſpond of courſe, and the <hi>Canting</hi> of the one immediately begets Sighs and Groans in the other.</p>
+            <p>I am of opinion, that the higheſt <hi>Paroxyſms</hi> of Vulgar <hi>Quakeriſme</hi> have
+<pb n="147" facs="tcp:101294:79"/> much the ſame Cauſe, as <hi>Dancing</hi> to Muſick in Fits of the <hi>Tarantula:</hi> For I have with pity and plea<g ref="char:EOLhyphen"/>ſure both obſerv'd, that the malignant <hi>Ferment</hi> hath been by degrees ex<g ref="char:EOLhyphen"/>haled by their violent <hi>Su<g ref="char:EOLhyphen"/>dorifick</hi> motions; and when the poor Soul hath ſpent his Spirits, and is tyred at his very heart, then (as he fancies) the <hi>Spirit</hi> goes off and leaves <hi>working.</hi> And I am in<g ref="char:EOLhyphen"/>clined too to think, that the <hi>cooler</hi> habits of this Religious <hi>diſeaſe</hi> in many of them are to be cured
+<pb n="148" facs="tcp:101294:80"/> by <hi>Medicinal Drugs,</hi> and a regular courſe of <hi>Pill, Potion</hi> and <hi>Phlebotomy.</hi>
+            </p>
+            <p>A timely <hi>Viſitation</hi> of the Sick, as 'tis a chari<g ref="char:EOLhyphen"/>table duty almoſt neceſſa<g ref="char:EOLhyphen"/>ry, ſo it belongs as pro<g ref="char:EOLhyphen"/>perly to the Function of a Prieſt, as to the Profeſſion of a Phyſician; and the careful Viſits of a Ghoſtly Father ſhould (of right) be more welcome and comfortable, and accoun<g ref="char:EOLhyphen"/>ted of higher import, as the care of our Souls ought to be of dearer con<g ref="char:EOLhyphen"/>cern to us than that of our frail Bodies: and yet with
+<pb n="149" facs="tcp:101294:80"/> us, <hi>
+                  <g ref="char:V">Ʋ</g>bi deſinit Medicus, ibi incipit Theologus,</hi> is a common woful practice. For my own part, I ſhould think my ſelf obliged by a timelier <hi>Aſſiſtance</hi> to minde my ghoſtly <hi>Patient</hi> of the dangers of his long <hi>Jour<g ref="char:EOLhyphen"/>ney,</hi> urge him to hearty Confeſſion, give him com<g ref="char:EOLhyphen"/>fortable <hi>Abſolution,</hi> and Communicate to him the ſtrengthening <hi>Viaticum</hi> of the Body and Blood of the Adorable Jeſus. How buſie the reſtleſs malice of the <hi>Enemy</hi> of Mankinde may be at this time to in<g ref="char:EOLhyphen"/>ſinuate <hi>Suggeſtions</hi> of De<g ref="char:EOLhyphen"/>ſpair,
+<pb n="150" facs="tcp:101294:81"/> or preſumptuous hopes of longer Life, into Sick perſons, I know not; but ſurely I am bound to examine the caſe, and by ſeaſonable <hi>Anticipations</hi> prevent (at leaſt) the ſuc<g ref="char:EOLhyphen"/>ceſs of <hi>Satan</hi>'s devices.</p>
+            <p>That the Devil by <hi>In<g ref="char:EOLhyphen"/>jection</hi> can <hi>modifie</hi> our Thoughts, and in a great meaſure rule the Faculties, (eſpecially of weak ſick perſons, who are now more retired within them<g ref="char:EOLhyphen"/>ſelves, and free from the ſenſible <hi>amuſements</hi> and diverſions of worldly ob<g ref="char:EOLhyphen"/>jects) I verily believe; for
+<pb n="151" facs="tcp:101294:81"/> he may make a very mali<g ref="char:EOLhyphen"/>cious and miſchievous uſe of the advantages he hath over our Souls (himſelf being a ſubtle, powerful <hi>Spirit,)</hi> and (therefore) by <hi>eminency</hi> of like na<g ref="char:EOLhyphen"/>ture, may have a very forcible <hi>Influence</hi> upon the Operations of our Spirit; as (to take a parallel <hi>A<g ref="char:EOLhyphen"/>nalogy</hi> from what appears in <hi>matter,</hi> the contrary eſſence) the <hi>Preſſure</hi> or <hi>Colliſion</hi> of a ſtronger bo<g ref="char:EOLhyphen"/>dy alters (we ſee) the <hi>Figure</hi> of Extenſion in a weaker; or as the <hi>dimen<g ref="char:EOLhyphen"/>ſion</hi> of ſoft Wax is (by
+<pb n="152" facs="tcp:101294:82"/> my hands) now <hi>ſquare,</hi> then <hi>round,</hi> and preſently <hi>triangular</hi> or <hi>oblong.</hi>
+            </p>
+            <p>Now the Advantages of theſe frequent Viſits will not only be ſo to the Sick, but will produce in us forcible habits of un<g ref="char:EOLhyphen"/>daunted Indifferencie a<g ref="char:EOLhyphen"/>gainſt the Fears and Ap<g ref="char:EOLhyphen"/>prehenſions of Death in general, and the nearer <hi>Approaches</hi> of it too, when our ſelves are aſſaulted. Our moſt proper <hi>Titles</hi> are <hi>Ghoſtly, Spiritual,</hi> and ſuch like; to intimate, that 'tis our <hi>Trade</hi> to be familiarly preſent and fre<g ref="char:EOLhyphen"/>quently aſſiſtant at Na<g ref="char:EOLhyphen"/>ture's
+<pb n="153" facs="tcp:101294:82"/> 
+               <hi>grand Diſſection</hi> of Soul and Body: It will the better improve our <hi>Theologick</hi> Knowledge and Skill, as an accurate diligence in <hi>Anatomick</hi> Exerciſes doth that of the <hi>Chirurgick;</hi> beſides that the company of a Divine Phyſician ſuits well with the Soul, as ſhe is ready to be <hi>diſmantled</hi> of her walls of fleſh, and tranſ<g ref="char:EOLhyphen"/>mitted to the better <hi>Co<g ref="char:EOLhyphen"/>lony</hi> of the new <hi>Jeruſa<g ref="char:EOLhyphen"/>lem.</hi>
+            </p>
+            <p>To men of our Functi<g ref="char:EOLhyphen"/>on, the ſight of Death ſhould be no more terrible
+<pb n="154" facs="tcp:101294:83"/> than that of our Breath; and we may be aſhamed, that our profeſt hopes of the Bodies Reſurrection, and the immediate Feli<g ref="char:EOLhyphen"/>city of our Soul, falls ſhort of the courageous <hi>Gallan<g ref="char:EOLhyphen"/>try</hi> of many Heathens, in braving the ghaſtly <hi>King of Terrours</hi> to his very face, upon no better or very little more aſſurance of Immortality, than that of ſurviving <hi>Fame</hi> and <hi>Glory,</hi> or a fruitleſs <hi>Nomen crit indelebile noſtrum.</hi>
+            </p>
+            <p>I have known ſome of us, that not want of Chriſtian Charity, but Courage (in
+<pb n="155" facs="tcp:101294:83"/> this point) hath with-held from paying their laſt du<g ref="char:EOLhyphen"/>tiful Offices to Sick per<g ref="char:EOLhyphen"/>ſons; and when a ſilly common <hi>Nurſe</hi> ſhall at<g ref="char:EOLhyphen"/>tend alone in ſilent, diſmal <hi>Night-watches,</hi> theſe men could not approach in open day, without appa<g ref="char:EOLhyphen"/>rent <hi>damps</hi> of <hi>Conſter<g ref="char:EOLhyphen"/>nation.</hi> And yet 'tis (doubtleſs) as natural to die as to live, or as 'tis to be born: and the ſight of <hi>a Coffin</hi> alters me no more than that of <hi>a Cradle.</hi> Certainly, if the ſtrange appearance of the object ſtartled us, a ſilly <hi>Midwife</hi>
+               <pb n="156" facs="tcp:101294:84"/> hath greater reaſon to be ſcared at the <hi>odde</hi> and <hi>un<g ref="char:EOLhyphen"/>couth</hi> Circumſtances that accompany Natures <hi>thru<g ref="char:EOLhyphen"/>ſting</hi> a Child into the world, than we in duely preparing a departing man or woman for the fami<g ref="char:EOLhyphen"/>liar <hi>Womb</hi> of our common <hi>Mother.</hi>
+            </p>
+            <p>I finde little more ſur<g ref="char:EOLhyphen"/>prize or alteration in my ſelf at the ſight of a de<g ref="char:EOLhyphen"/>ceaſed Man, than of any other dead <hi>Animal:</hi> Nay, why ſhould I not (on the contrary) be much more amazed at this, than that? Since this is an abſolute
+<pb n="157" facs="tcp:101294:84"/> object of <hi>irreparable Mor<g ref="char:EOLhyphen"/>tality,</hi> and a total <hi>Priva<g ref="char:EOLhyphen"/>tion</hi> appears here; in the other, of one <hi>Moiety</hi> only, and that but to the gene<g ref="char:EOLhyphen"/>ral <hi>Reſurrection.</hi>
+            </p>
+            <p>'Tis Opinion, not Rea<g ref="char:EOLhyphen"/>ſon or Religion, rules men. Dying hath been the com<g ref="char:EOLhyphen"/>mon <hi>trade</hi> and way of all fleſh, for almoſt <hi>Six thou<g ref="char:EOLhyphen"/>ſand years;</hi> and more dye by <hi>Weekly Computation</hi> than are born: Nay, this <hi>Champion</hi> hath made one ſingle Field ſuch a glo<g ref="char:EOLhyphen"/>rious Scene of his Pomp and Luxury, that 500000 Spectacles of Mortality
+<pb n="158" facs="tcp:101294:85"/> have been at once offered as <hi>Victims</hi> to the inſatiate Fury of one bloudy Bat<g ref="char:EOLhyphen"/>tle, 2 <hi>Chron.</hi> 13. 17. And in ſuch a ſmall <hi>Circum<g ref="char:EOLhyphen"/>ſcription</hi> of time and place as this, I ſuppoſe we never heard, nor ever ſhall, of an equal number of <hi>Nati<g ref="char:EOLhyphen"/>vities.</hi>
+            </p>
+            <p>To me <hi>to dye is gain,</hi> ſaith St. <hi>Paul,</hi> Phil. 1. 21. which beſides an <hi>Enfran<g ref="char:EOLhyphen"/>chiſement</hi> and releaſe from the many troubles of this Life, and the acquiſition of eternal Joy, doth alſo import to me, That by Death and Separation this
+<pb n="159" facs="tcp:101294:85"/> 
+               <hi>Concrete</hi> becomes two <hi>di<g ref="char:EOLhyphen"/>ſtinct Eſſences;</hi> and we are ſo far from vaniſhing into <hi>nothing,</hi> that by the advantageous diviſion of Soul and Body, one ſingle Being branches into a <hi>du<g ref="char:EOLhyphen"/>plicity of Exiſtences.</hi> For our <hi>Corps,</hi> thô ſilent and unactive in the cold <hi>Lap of common Fate,</hi> looſes not a whit of its title to <hi>Exi<g ref="char:EOLhyphen"/>ſtence;</hi> nay, even in this <hi>ghaſtly Privation,</hi> there ſtill appear ſome weak re<g ref="char:EOLhyphen"/>mains and faint <hi>efforts</hi> of <hi>a Vegetative</hi> Soul.</p>
+            <p>But our <hi>Spirit ſhall mount up like an Eagle,</hi>
+               <pb n="160" facs="tcp:101294:86"/> Iſai. 40. 31. on the wings of celeſtial activity, and greedily graſp all the plea<g ref="char:EOLhyphen"/>ſures of <hi>a perfect Intelli<g ref="char:EOLhyphen"/>gence,</hi> ranging at large in the infinite <hi>Abyſs</hi> of im<g ref="char:EOLhyphen"/>mortal Light &amp; boundleſs Aboads of Angels. There ſhe will clearly diſcern the nature of her own <hi>Eſ<g ref="char:EOLhyphen"/>ſence</hi> and <hi>Faculties</hi> by <hi>re<g ref="char:EOLhyphen"/>flex</hi> Intuition on her ſelf; or elſe (perhaps) ſee the perfect Image of her ſelf, and of all things paſt, pre<g ref="char:EOLhyphen"/>ſent and to come (to her infinite ſatisfaction) in the glorious <hi>Mirrour</hi> of the Eternal Godhead. Nor
+<pb n="161" facs="tcp:101294:86"/> will ſhe then owe her knowledge to the groſs Communications of mate<g ref="char:EOLhyphen"/>rial objects, through the weak <hi>conveyances</hi> of bo<g ref="char:EOLhyphen"/>dily ſenſe.</p>
+            <p>I could (in ſome fits of contemplative Melancho<g ref="char:EOLhyphen"/>ly) fall aſleep aſſoon in a <hi>Charnel-houſe,</hi> as in my <hi>Bed-chamber;</hi> and am of<g ref="char:EOLhyphen"/>ten ſo weary of dull Life, that my greateſt delight is in ſuch objects as ſpeak moſt to its diſadvantage. The ſtate and magnificence of <hi>a Tomb</hi> or <hi>Monument,</hi> ſteals a ſecret wiſh from me to be <hi>Tenant</hi> to that
+<pb n="162" facs="tcp:101294:87"/> quiet, ſilent Pomp, more than the ſight of a ſum<g ref="char:EOLhyphen"/>ptuous Palace, to be Lord and Maſter there.</p>
+            <p>I know that I carry <hi>a Ghoſt</hi> always about me, and that I my ſelf am <hi>a walking Spirit:</hi> This thought allays in me thoſe vulgar fears of the haunts and viſits of <hi>Spectres.</hi> And as I am not at all afraid of my ſelf (unleſs, when God lets looſe his <hi>terrours</hi> up<g ref="char:EOLhyphen"/>on my Soul, and my Con<g ref="char:EOLhyphen"/>ſcience laſhes me for my ſins, <hi>Job</hi> 18. 11.) ſo I am very little apprehenſive of <hi>Apparitions:</hi> Nay more,
+<pb n="163" facs="tcp:101294:87"/> I could wiſh the Commu<g ref="char:EOLhyphen"/>nications more frequent betwixt us and the Inha<g ref="char:EOLhyphen"/>bitants of <hi>the upper world:</hi> It would harden our Chriſtian Courage, fa<g ref="char:EOLhyphen"/>miliarize to us the thoughts of Separation; and create in us a paſſio<g ref="char:EOLhyphen"/>nate Love of that Coun<g ref="char:EOLhyphen"/>try, from the good report of theſe <hi>ſpiritual Spies,</hi> making us ſay with cou<g ref="char:EOLhyphen"/>rageous <hi>Caleb, Let us go up and poſſeſs it,</hi> Numb. 13. 30.</p>
+            <p>I could (I thank God) ſtare a reputed <hi>Witch</hi> full in the face, with as
+<pb n="164" facs="tcp:101294:88"/> little terrour as I look up<g ref="char:EOLhyphen"/>on <hi>a ſucking Infani;</hi> and boldly retort the <hi>poyſo<g ref="char:EOLhyphen"/>nous emiſſions</hi> of her ma<g ref="char:EOLhyphen"/>licious Eyes. For in this I take <hi>Balaam</hi> at his word (who without doubt had tried the Experiment) that there is no <hi>Enchantment</hi> againſt <hi>Jacob,</hi> neither is there any <hi>Divination</hi> a<g ref="char:EOLhyphen"/>gainſt <hi>Iſrael, Numb.</hi> 23. 23.</p>
+            <p>I pretend not by the <hi>Title</hi> of this ſmall Treatiſe to any extraordinary <hi>Scheme</hi> or new <hi>draught</hi> of Religion for the <hi>Clergy,</hi> much leſs would I be
+<pb n="165" facs="tcp:101294:88"/> thought ſlily to ſuggeſt any neglect or deficiency of theirs in the practice of the <hi>Old:</hi> I am very very well aſſured, that <hi>Religio Clerici</hi> is a direct <hi>Tautologie;</hi> and yet I de<g ref="char:EOLhyphen"/>tract no more from the Sanctimonious Worth of the Clergy, by the con<g ref="char:EOLhyphen"/>junction of theſe two <hi>terms,</hi> than I deny the Sun to be the Fountain of Light, when I ſay, <hi>Lumen Solis.</hi> Only I could wiſh that we were all, not only good and vertuous, but <hi>eminently</hi> and in the laſt degree ſo
+<pb n="166" facs="tcp:101294:89"/> too; and that all the leſ<g ref="char:EOLhyphen"/>ſer Chriſtian <hi>Luminaries</hi> might more and more derive Light from us. I would have all the Wiſ<g ref="char:EOLhyphen"/>dome and Vertue that ever appeared in the <hi>guiſe</hi> of true Reaſon in the world, ſumm'd up and amaſſed in <hi>a Chriſti<g ref="char:EOLhyphen"/>an Prieſt;</hi> eſpecially in a daily, ſincere contempt of this world. We ſhould ſtrive clearly to demon<g ref="char:EOLhyphen"/>ſtrate the certain hope we have of Eternal Felicity after Death, by being very careleſs, if at all ſen<g ref="char:EOLhyphen"/>ſible of this Life. And in
+<pb n="167" facs="tcp:101294:89"/> this let us ſoar a pitch be<g ref="char:EOLhyphen"/>yond the higheſt flights of the wiſeſt <hi>Heathens,</hi> and outdo in very <hi>fact</hi> their utmoſt <hi>Ideas</hi> and <hi>Hyper<g ref="char:EOLhyphen"/>boles.</hi>
+            </p>
+            <p>The excellent Specu<g ref="char:EOLhyphen"/>lations of ſome old <hi>Philo<g ref="char:EOLhyphen"/>ſophers</hi> aroſe ('tis true) to a very great height, and their refined Reaſon was exerciſed in moſt divine Contemplations: But a<g ref="char:EOLhyphen"/>las! the better and purer their <hi>Notions</hi> were of Ver<g ref="char:EOLhyphen"/>tue and Sanctity, they became ſo much the more <hi>impracticable</hi> to them, and they fell ſhort in the
+<pb n="168" facs="tcp:101294:90"/> performance of their own Rules and Dictates. The Cauſe of this natural in<g ref="char:EOLhyphen"/>ability and latent <hi>impo<g ref="char:EOLhyphen"/>tency</hi> of their Wills, they were altogether ſtrangers to; and thô they knew in effect moſt Doctrines of <hi>Chriſtian Morality,</hi> yet having not the <hi>Faith of Jeſus,</hi> nor by conſequence the aſſiſtance of God's particular Grace, their knowledge was but of ſmall import and ſignifi<g ref="char:EOLhyphen"/>cancy; nor could it in the very beſt of them produce actions accepta<g ref="char:EOLhyphen"/>ble to God, unleſs his
+<pb n="169" facs="tcp:101294:90"/> ſecret infinite Mercy gave ſome gracious allowances for that natural corrupti<g ref="char:EOLhyphen"/>on which they knew no<g ref="char:EOLhyphen"/>thing of, and which was cured but in a poor de<g ref="char:EOLhyphen"/>gree by <hi>univerſal Grace.</hi>
+            </p>
+            <p>And this Notion I have framed to my ſelf of the <hi>Heathens</hi> Morality, en<g ref="char:EOLhyphen"/>clines me to believe, that our Wills derived from <hi>Adam</hi>'s diſobedience, a de<g ref="char:EOLhyphen"/>pravity double to that of our <hi>Intellects;</hi> for as we ſee by theſe <hi>Pagans,</hi> their Underſtanding could ex<g ref="char:EOLhyphen"/>cellently diſtinguiſh, and were (in the <hi>Serpent's</hi>
+               <pb n="170" facs="tcp:101294:91"/> words) as Gods knowing good and evil, yet were <hi>the Imaginations of the thoughts of their hearts always evil continually,</hi> Gen. 6. 5. But we Chri<g ref="char:EOLhyphen"/>ſtian <hi>Prieſts,</hi> that have ſucceſſively received all the <hi>gradual</hi> Communica<g ref="char:EOLhyphen"/>tions of Divine Grace, and Sanctifications of the bleſſed Spirit, from the <hi>Font</hi> to the Miniſtry of the holy <hi>Altar,</hi> are doubly obliged, as we tranſcend the beſt of them in the ſublime <hi>Myſteries</hi> of our Faith, ſo to outſtrip them in the moſt excellent pra<g ref="char:EOLhyphen"/>ctices
+<pb n="171" facs="tcp:101294:91"/> of <hi>Evangelical</hi> Mo<g ref="char:EOLhyphen"/>rality; and not them only, but all others al<g ref="char:EOLhyphen"/>ſo.</p>
+            <p>
+               <hi>Non poſſumus perficere bonam actionem ſine adju<g ref="char:EOLhyphen"/>torio Gratiae,</hi> is rightly oppoſed to <hi>Pelagius;</hi> nor is the propoſition only <hi>notional:</hi> for beſides that our Saviour tells us, <hi>with<g ref="char:EOLhyphen"/>out me ye can do nothing,</hi> Joh. 15. 5. And St. <hi>Paul,</hi> that <hi>'tis God which wor<g ref="char:EOLhyphen"/>keth in us, both to will and do,</hi> Philip. 2. 13. I have often obſerved, (in my own narrow <hi>oeconomy)</hi> that the cleareſt Convi<g ref="char:EOLhyphen"/>ctions
+<pb n="172" facs="tcp:101294:92"/> of Reaſon, and ſtrongeſt Moral Reſolu<g ref="char:EOLhyphen"/>tions, have proved weak and of ſmall force againſt the power of moſt ſins; eſpecially againſt the vio<g ref="char:EOLhyphen"/>lent aſſaults of a <hi>comple<g ref="char:EOLhyphen"/>xional Vice:</hi> We may ſin and reſolve to the con<g ref="char:EOLhyphen"/>trary, and reſolve and ſin again <hi>in infinitum,</hi> till with <hi>Jacob we wraſtle with God,</hi> (Gen. 32. 26.) as well as <hi>reſiſt the Devil;</hi> until by violent Prayer we <hi>take Heaven by force,</hi> (Matth. 11. 12.) and draw down the aſſiſtance of Divine Grace, all our o<g ref="char:EOLhyphen"/>ther
+<pb n="173" facs="tcp:101294:92"/> ſtrongeſt and moſt vigorous Efforts will prove feeble and ineffe<g ref="char:EOLhyphen"/>ctual. The very Expe<g ref="char:EOLhyphen"/>rience of this hath confu<g ref="char:EOLhyphen"/>ted <hi>Pelagianiſme</hi> to me, better than a thouſand <hi>Syllogiſms.</hi>
+            </p>
+            <p>I have ſeldome gone to Bed (in the days of looſeſt Vanity, and before I was ſo happy as ſincerely to eſpouſe the <hi>Predicate,</hi> much leſs had the honour to wear the <hi>ſubject</hi> of this Books title) without <hi>Py<g ref="char:EOLhyphen"/>thagoras</hi> his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>Aur. Carm.</hi> My rea<g ref="char:EOLhyphen"/>ſon hath upon an impar<g ref="char:EOLhyphen"/>tial
+<pb n="174" facs="tcp:101294:93"/> ſumming up that days <hi>Evidence</hi> made my own Conſcience a ſevere <hi>Jury</hi> againſt me, in pronoun<g ref="char:EOLhyphen"/>cing a perfect diſlike and condemnation of ſuch proceedings: I have then made applications of (as I thought) ſtrong reſolves to obſerve its dictates for the future; and this hath in ſome meaſure aſſwaged the ſmart of my minde then. But alas! my <hi>trial</hi> all this while being at the wrong <hi>Bar,</hi> I could never obtain a true Pardon for old, nor ſtrength againſt new <hi>Lapſes:</hi> My Incli<g ref="char:EOLhyphen"/>nations
+<pb n="175" facs="tcp:101294:93"/> to ſin have dou<g ref="char:EOLhyphen"/>bled upon me; and when they felt the <hi>Curb</hi> of Reaſon pinch them, they began to be <hi>reſty;</hi> or as if a plain diſcovery had more and more hardned their countenances, the <hi>Senſualities</hi> which they privately ſtole before, they began now to act with remorſeleſs <hi>Effron<g ref="char:EOLhyphen"/>terie;</hi> nay more, they would mutter Arguments for their Juſtification alſo: This indeed <hi>alarm'd</hi> me to the quick; I examin'd my ſelf immediately by the <hi>ſtandard of the San<g ref="char:EOLhyphen"/>ctuary;</hi>
+               <pb n="176" facs="tcp:101294:94"/> fell proſtrate at the Throne of Grace, and obtained Balm from <hi>Gi<g ref="char:EOLhyphen"/>lead</hi> to cure the Wounds of my repeated weakneſ<g ref="char:EOLhyphen"/>ſes. And (by this new method) I felt more ſtrength in a ſhort time from a ſingle, but hearty Prayer, <hi>Lead me not into temptation, but deliver me from evil,</hi> than from all the cleareſt and niceſt reaſons and perſwaſions of the <hi>Peripatum,</hi> or <hi>Por<g ref="char:EOLhyphen"/>ticus.</hi>
+            </p>
+            <p>Not but that theſe <hi>Ethicks,</hi> together with a rational and impartial
+<pb n="177" facs="tcp:101294:94"/> 
+               <hi>ſurvey</hi> of ourſelves, may produce ſtronger and bet<g ref="char:EOLhyphen"/>ter effects in others than they did in me; but we muſt not rely on the gui<g ref="char:EOLhyphen"/>dance and conviction of theſe alone to amend us; leſt we make no better advances than mere <hi>Eth<g ref="char:EOLhyphen"/>nicks,</hi> by the force of Free-will, and conduct of humane Reaſon: Com<g ref="char:EOLhyphen"/>mon Moralities belonging not (perhaps) to the ſame <hi>ſpecies</hi> with <hi>Evangelical Graces,</hi> but differing from them as much in eſſential Beauty, as theſe do from the perfection of <hi>Ange<g ref="char:EOLhyphen"/>lical</hi>
+               <pb n="178" facs="tcp:101294:95"/> 
+               <hi>Obedience.</hi> For (I ſay once more) my Opi<g ref="char:EOLhyphen"/>nion is, that our Wills received a deeper <hi>tincture</hi> of corruption, and a far larger <hi>Doſe</hi> of Depravity from <hi>Adam</hi>'s Fall, than the Intellectual Faculty; foraſmuch as we finde the former ſtrongly averſe to obſerve and practiſe thoſe Doctrines, which the Re<g ref="char:EOLhyphen"/>ligion of <hi>Jeſus</hi> teaches, and which ſome <hi>Heathens</hi> had a rough <hi>draught</hi> of from Natural Reaſon, I mean the <hi>Theorems</hi> of Morality, and that in no mean meaſure neither: for
+<pb n="179" facs="tcp:101294:95"/> excepting ſuch revealed Myſteries as have a pecu<g ref="char:EOLhyphen"/>liar relation to the incom<g ref="char:EOLhyphen"/>prehenſible <hi>Theanthropy,</hi> What ſublime Doctrine of Chriſtian <hi>Philoſophy</hi> have they not hinted? Even ſo far, as to the forgiving and loving their Enemies. But yet, I can<g ref="char:EOLhyphen"/>not believe that their actions were in a ſuitable degree correſpondent to their Principles, nor did their practices make ad<g ref="char:EOLhyphen"/>vances equal to their Speculations and <hi>Theorick</hi> Knowledge. Why ſhould any man therefore vainly
+<pb n="180" facs="tcp:101294:96"/> rely upon that pretended mighty thing, the natural ſtrength of <hi>Free-Will?</hi> Let us Chriſtians rather exclaim, <hi>Non nobis, Do<g ref="char:EOLhyphen"/>mine, non nobis,</hi> &amp;c.</p>
+            <p>If it were poſſible to encline me to the <hi>Prede<g ref="char:EOLhyphen"/>ſtinarian</hi> Opinion, the urging the <hi>ninth Chapter to the</hi> Romans would not work half ſo much upon me, as our Lord and Sa<g ref="char:EOLhyphen"/>viour's Anſwer to that Queſtion, <hi>Lord, are there few that are ſaved? Strive</hi> (ſaith he, Luke, 13. 24.) <hi>to enter in at the ſtrait gate, for many (I</hi>
+               <pb n="181" facs="tcp:101294:96"/> 
+               <hi>ſay unto you) will ſeek to enter in, and ſhall not be able.</hi>
+            </p>
+            <p>And truly when I con<g ref="char:EOLhyphen"/>ſider the little ſence and knowledge which moſt Chriſtians (to omit by ten times the greater part of mankinde) have of the <hi>Divine Life,</hi> how deeply the generality is immerſed in the prejudices of Na<g ref="char:EOLhyphen"/>ture, clouded with dull groſneſs of Intellect, and inapprehenſive Ignorance of the true ſtate of Na<g ref="char:EOLhyphen"/>ture, and the Methods and Conditions of their <hi>Redemption;</hi> Slaves to
+<pb n="182" facs="tcp:101294:97"/> Vices of Conſtitution or Habit, diverted by ne<g ref="char:EOLhyphen"/>ceſſary cares and worldly buſineſs, intangled in (al<g ref="char:EOLhyphen"/>moſt) unavoidable Inju<g ref="char:EOLhyphen"/>ſtices of Commerce and Traffique, and wholly ta<g ref="char:EOLhyphen"/>ken up with affairs of <hi>Natural</hi> or <hi>Political</hi> Life; in a word, led captive to ſin, <hi>by the Luſts of the Fleſh, the luſts of the Eye, and Pride of Life,</hi> 1 Joh. 2. 16. When too, I ob<g ref="char:EOLhyphen"/>ſerve the natural averſ<g ref="char:EOLhyphen"/>neſs of our Wills, the many exact circumſtances required to compleat a good action, <hi>Bonum ex</hi>
+               <pb n="183" facs="tcp:101294:97"/> 
+               <hi>integrâ cauſâ, malum ex quolibet defectu:</hi> When I regard the way almoſt of all <hi>Fleſh</hi> ſince <hi>Adam,</hi> how ſenceleſs and careleſs of <hi>celeſtial</hi> buſineſs; but a<g ref="char:EOLhyphen"/>bove all, when I think on the moſt incredible obſti<g ref="char:EOLhyphen"/>nacy (had not God ſaid it) and prodigious per<g ref="char:EOLhyphen"/>verſneſs of the antient <hi>Jews,</hi> under the palpable ſenſe and ocular Convi<g ref="char:EOLhyphen"/>ctions of Miracles and Judgments: When I read <hi>Adam</hi> ſtumbled and fell amidſt all the Rays of <hi>Divinity</hi> in <hi>Paradiſe;</hi> that <hi>Peter</hi> with cowardly
+<pb n="184" facs="tcp:101294:98"/> 
+               <hi>Perjury</hi> could deny his Maſter <hi>(Mat.</hi> 26. 74.) the known Son of God, con<g ref="char:EOLhyphen"/>trary to fair warning gi<g ref="char:EOLhyphen"/>ven him by his Lord, and all his late <hi>bravadoes</hi> of Fidelity even to Death, <hi>Mat.</hi> 26. 34, 35. and more than all this, contrary to his great and glorious <hi>Confeſſion,</hi> Mat. 16. 16. That wiſe <hi>Solomon</hi> ſacri<g ref="char:EOLhyphen"/>ficed to the <hi>Devil,</hi> althô he had ſeen God twice, 1 <hi>King.</hi> 11. 8, 9. When, I ſay, I ſum up all this to<g ref="char:EOLhyphen"/>gether, I wonder (with deep <hi>adoration</hi> of God's Mercy) that any one man
+<pb n="185" facs="tcp:101294:98"/> is ſaved, and ſnatcht from amongſt the ſtrong <hi>En<g ref="char:EOLhyphen"/>tanglements</hi> of the World, the Fleſh, and the Devil, whoſe indefatigable tem<g ref="char:EOLhyphen"/>ptations, and ſly Devices to entrap us, I forgot to mention.</p>
+            <p>But again, when I pon<g ref="char:EOLhyphen"/>der the methods of God's gracious dealing with us in the infallible <hi>Revela<g ref="char:EOLhyphen"/>tions</hi> of his Will in his <hi>holy Word;</hi> his paſſionate Expoſtulations, and kinde Invitations, by promiſes of Eternal Life and Feli<g ref="char:EOLhyphen"/>city; his diſſwaſions from Sin, by dreadful Threats
+<pb n="186" facs="tcp:101294:99"/> of endleſs Miſery, all which in all other Caſes are the firſt and moſt for<g ref="char:EOLhyphen"/>cible <hi>Motives</hi> of humane Actions: But above all, when I reflect upon the ſtupendious <hi>Myſtery</hi> of the <hi>Godhead</hi>'s becoming Fleſh for our Redemption, the Ineffable Majeſty; grand import and ſignifi<g ref="char:EOLhyphen"/>cancy, ſtrong and com<g ref="char:EOLhyphen"/>fortable Efficacy, and the final End and Deſigne of that incomprehenſible piece of Mercy, together with the helps and com<g ref="char:EOLhyphen"/>forts of the holy <hi>Sacra<g ref="char:EOLhyphen"/>ments,</hi> thoſe ſure Con<g ref="char:EOLhyphen"/>veiances
+<pb n="187" facs="tcp:101294:99"/> of aſſiſting Grace, the inward workings of the Holy Spirit, together with our own ſtrong Convictions, and the <hi>Pa<g ref="char:EOLhyphen"/>nacaea</hi> of all deſperate re<g ref="char:EOLhyphen"/>peated Falls and <hi>Apoſta<g ref="char:EOLhyphen"/>ſies,</hi> (God's gracious ac<g ref="char:EOLhyphen"/>ceptance of true, though never ſo late) <hi>Repentance;</hi> conſidering (I ſay) all theſe, 'tis a Miracle to me, how any Rational Man ſhould finally miſcarry to damnation, much leſs that after all this, the <hi>ſurpluſage</hi> of number ſhould ſtill lye on the ſide of the <hi>caſta<g ref="char:EOLhyphen"/>ways.</hi> And I am more and
+<pb n="188" facs="tcp:101294:100"/> more plunged and puzled in this point, when I nar<g ref="char:EOLhyphen"/>rowly conſider the Mo<g ref="char:EOLhyphen"/>tives and Reaſons of hu<g ref="char:EOLhyphen"/>mane Actions, and the true nature of <hi>Free-will.</hi> The bare freedom of our Will hath certainly all reaſons imaginable to <hi>ballance</hi> it on the ſide of Vertue and Piety; it is not only cured of its natural corruption by Grace, but the power of this Grace muſt be al<g ref="char:EOLhyphen"/>lowed to have the pre<g ref="char:EOLhyphen"/>valency above the force of any temptation, <hi>Rom.</hi> 5. 20, 21. For 'tis <hi>dero<g ref="char:EOLhyphen"/>gatory</hi> to our Saviour's
+<pb n="189" facs="tcp:101294:100"/> 
+               <hi>Merits</hi> to imagine, that we are ſtill left to ſtrug<g ref="char:EOLhyphen"/>gle with ſin upon <hi>unequal oddes.</hi>
+            </p>
+            <p>Their <hi>Notion</hi> of Will who ſuppoſe it a <hi>Faculty</hi> diſtinct from the Intellect, I approve not of; and to call it a blinde Power, yet allow it <hi>liberty</hi> of Electi<g ref="char:EOLhyphen"/>on, is beyond my under<g ref="char:EOLhyphen"/>ſtanding to apprehend. I rather underſtand the Will to be the laſt reſo<g ref="char:EOLhyphen"/>lution of the Intellectual Faculty, as it tends to action in exerting its power: So that I think <hi>Intellectus practicus</hi> may
+<pb n="190" facs="tcp:101294:101"/> include Will too well e<g ref="char:EOLhyphen"/>nough; For what ever humane action proceeds from rational <hi>Volition,</hi> is ſuppoſed (more or leſs) to have paſſed the delibe<g ref="char:EOLhyphen"/>ration of our Underſtan<g ref="char:EOLhyphen"/>ding; that is, the very ſame power of a reaſonable Soul (for I think not the Faculties diſtinct) firſt conſiders and judges, then determines it ſelf to a<g ref="char:EOLhyphen"/>ction.</p>
+            <p>Yet there are ſome hu<g ref="char:EOLhyphen"/>mane Actions where vio<g ref="char:EOLhyphen"/>lent <hi>ſurprize</hi> or the for<g ref="char:EOLhyphen"/>cible ſway of a <hi>conſtitu<g ref="char:EOLhyphen"/>tional Vice</hi> may hurry the
+<pb n="191" facs="tcp:101294:101"/> Will to ſudden choice, before the Intellect in that confuſion can appear at the <hi>Election;</hi> as in Fits of <hi>Cholerick</hi> or <hi>Luſtful</hi> Paſſions: But theſe ſeem to me actions of the <hi>Ani<g ref="char:EOLhyphen"/>mal</hi> rather than the Man, and more properly <hi>ſpon<g ref="char:EOLhyphen"/>taneous</hi> than free: And yet we have a few In<g ref="char:EOLhyphen"/>ſtances of the <hi>Triumph</hi> of Grace over ſudden pro<g ref="char:EOLhyphen"/>voking Temptations even of this ſort, as in <hi>David</hi>'s patient Meekneſs in the buſineſs of <hi>Shimei,</hi> 2 <hi>Sam.</hi> 16. 9, 10. when <hi>Abiſhai</hi> (thô not pointed at) was
+<pb n="192" facs="tcp:101294:102"/> all on fire with bloudy rage and fury, as indeed it was his duty: And <hi>Joſeph</hi>'s reſiſting the im<g ref="char:EOLhyphen"/>portunate <hi>Sollicitations,</hi> and at laſt almoſt <hi>Raviſh<g ref="char:EOLhyphen"/>ment</hi> of his Maſters Wife <hi>in inſtanti,</hi> contrary to Fleſh and Bloud, Intereſt and Ambition, that with joynt forces aſſaulted his Honour and Honeſty all at once, as the caſe then ſtood. But to return, I ſuppoſe an humane Soul to be a Simple Thinking <hi>Eſſence,</hi> that judges and acts with rational delibe<g ref="char:EOLhyphen"/>ration, and which hath
+<pb n="193" facs="tcp:101294:102"/> more and ſtronger Mo<g ref="char:EOLhyphen"/>tives <hi>ab intra</hi> and <hi>ab extra</hi> ſo to do, in matters of Chriſtian Duty, than in any other occaſions of Life whatſoever. By all this I mean, in a word, if there be greater <hi>Motives</hi> in Religion to incline this free thinking Soul of ours (according to her own common natural way of working) to good a<g ref="char:EOLhyphen"/>ctions, than any other <hi>Principle</hi> can pretend to, to declien her to bad, (and which motives ſhe firmly believes and aſ<g ref="char:EOLhyphen"/>ſents to) how can we in
+<pb n="194" facs="tcp:101294:103"/> Reaſon, Religion, or <hi>Phi<g ref="char:EOLhyphen"/>loſophy</hi> ſolve the general Inclinations of Chriſtians in the groſs the other way, when the more for<g ref="char:EOLhyphen"/>cible <hi>poize</hi> lies here; un<g ref="char:EOLhyphen"/>leſs we make her freedom (like that of <hi>Fortune</hi>'s) the moſt ſenceleſs indif<g ref="char:EOLhyphen"/>ferency imaginable; and that ſhe hath no regard or dependence on knowledg or perſwaſion, but lets her actions out looſe, and <hi>at rovers;</hi> which is <hi>Non-ſence</hi> to me.</p>
+            <p>But farther ſtill, to chooſe a finite good be<g ref="char:EOLhyphen"/>fore an Infinite, a tempo<g ref="char:EOLhyphen"/>ral
+<pb n="195" facs="tcp:101294:103"/> before an eternal, that is (in ſhort) a leſs before a greater; nay more, to chooſe in effect willingly her own deſtruction, for the ſake of a preſent Pleaſure or Intereſt, this is all to act quite contrary to all her other <hi>common Methods</hi> of proceeding in any other caſes whatſo<g ref="char:EOLhyphen"/>ever. To ſay ſhe could not abſolutely be free, unleſs ſhe could do thus, <hi>(i. e.</hi> act againſt the very Principles of her being, &amp; thoſe of Self-preſervation) and that ſuch a bare in<g ref="char:EOLhyphen"/>determinate Power is the
+<pb n="196" facs="tcp:101294:104"/> eſpecial Prerogative of her freedome) is nothing but what I will grant; but yet ſtill for all that, 'tis natural and rational to preſume that this ab<g ref="char:EOLhyphen"/>ſolutely Free will ſhould rather, and moſt generally, in moſt Caſes be directed (in Religion eſpecially) by the dictates of clear Judgment, and <hi>convictions</hi> of Underſtanding: And ſince theſe in the buſineſs of <hi>Chriſtianity</hi> bend (con<g ref="char:EOLhyphen"/>feſſedly) to the ſide of Vertue and Goodneſs, Why are not the moſt of men (according to this
+<pb n="197" facs="tcp:101294:104"/> explanation of our Wills motion and operation) <hi>ballanced</hi> rather that way, than the other, as we ſee daily? If any one urge here the natural <hi>impotency</hi> in our Wills derived from <hi>Adam</hi>'s corruption: I re<g ref="char:EOLhyphen"/>joyn (as before) that the Death of Chriſt and God's Grace doth abundantly <hi>poyze</hi> that Infirmity, nay more, helps our Will to advantage above that. But farther ſtill, 'tis our nature to be <hi>rational;</hi> 'tis highly rational to be religious: what an excellent <hi>conſe<g ref="char:EOLhyphen"/>quence</hi> doth now naturally
+<pb n="198" facs="tcp:101294:105"/> follow? and yet (I fear) a thouſand to one <hi>de facto</hi> miſcarry: <hi>Little Flock,</hi> ſaith our Saviour, <hi>Luk.</hi> 12. 32. that ſtartles me.</p>
+            <p>Theſe Conſiderations, that the generality of Man<g ref="char:EOLhyphen"/>kinde (Chriſtians I mean) act according to their <hi>Capacities</hi> in the true di<g ref="char:EOLhyphen"/>ſcernment of the <hi>Colours</hi> of Good and Evil, in all (or moſt) caſes but Reli<g ref="char:EOLhyphen"/>gion, (which nevertheleſs is their greateſt Intereſt, by confeſt plain Convi<g ref="char:EOLhyphen"/>ction) this, I ſay, general <hi>miſcarriage</hi> of Free-will, together with our Savi<g ref="char:EOLhyphen"/>our's
+<pb n="199" facs="tcp:101294:105"/> aforeſaid Anſwer to the Queſtion, <hi>Luk.</hi> 13. 24. inclines me to fear (till I am better informed) that few men are happy in the <hi>abſolute</hi> uſe of unreſtrain'd <hi>Freedome,</hi> but that in moſt there is a ſecret <hi>imper<g ref="char:EOLhyphen"/>ceptible clog</hi> upon humane Will in its tendencies and operations.</p>
+            <p>To ſum up all, if our Will be free, and that freedom not ſimply <hi>blinde,</hi> but naturally (much more ſpiritually) directed by Underſtanding; and that Underſtanding informed by the confeſt Truths and
+<pb n="200" facs="tcp:101294:106"/> ſtrong Convictions of Re<g ref="char:EOLhyphen"/>ligion (tending to <hi>Self-preſervation Poſitive and Negative</hi> in the higheſt degree) and theſe again aſſiſted and inclinable to action by <hi>Divine Grace;</hi> and if there be a preſent <hi>Redreſs</hi> and effectual Re<g ref="char:EOLhyphen"/>medy by Repentance for all poſſible <hi>Lapſes;</hi> How comes the <hi>generality</hi> of us to force Nature, Reaſon, Religion, Conviction, De<g ref="char:EOLhyphen"/>monſtration &amp; Intereſt to act directly againſt their re<g ref="char:EOLhyphen"/>ſpective proper <hi>Principles?</hi> How is it that the true <hi>Iſraelites pitch like two</hi>
+               <pb n="201" facs="tcp:101294:106"/> 
+               <hi>little flocks of Kids; but the</hi> Syrians <hi>fill the Coun<g ref="char:EOLhyphen"/>trey?</hi> 1 Kin. 20. 27. How is it that the number of the Goats ſo far exceeds that of the Sheep? <hi>The ſecret things belong unto the Lord our God: but thoſe things which are re<g ref="char:EOLhyphen"/>vealed belong unto us, that we may do all the words of the Law,</hi> Deut. 29. 29.</p>
+            <p>Such <hi>Contemplative Perplexities</hi> as theſe, do ſometimes entertain my private thoughts, I con<g ref="char:EOLhyphen"/>feſs, but I make no farther Conſequences than what you have juſt now read;
+<pb n="202" facs="tcp:101294:107"/> nor do I harbour the leaſt ſurmiſe that touches the Juſtice of the moſt Juſt God, or deduce any <hi>In<g ref="char:EOLhyphen"/>ference</hi> that may have a bad influence on my acti<g ref="char:EOLhyphen"/>ons; nor do I follow the lewd humour of this Age in urging <hi>Neceſſity</hi> and <hi>Impoſſibility,</hi> as Compur<g ref="char:EOLhyphen"/>gators for their habitual wicked practices. I con<g ref="char:EOLhyphen"/>clude no Neceſſity, or irreverſible Decree abſo<g ref="char:EOLhyphen"/>lutely from theſe and ſuch like Meditations; but think when I am moſt puzzled, that then my poor weakneſs and Igno<g ref="char:EOLhyphen"/>rance
+<pb n="203" facs="tcp:101294:107"/> appears moſt.</p>
+            <p>I believe my Will ab<g ref="char:EOLhyphen"/>ſolutely free in all actions barely <hi>Moral and Politi<g ref="char:EOLhyphen"/>cal;</hi> and in Divine, that there is a concurrence of my freedome with ſuper<g ref="char:EOLhyphen"/>natural Grace. If I did not credit the former, I ſhould make my ſelf <hi>a Machine,</hi> mere <hi>Clock<g ref="char:EOLhyphen"/>work;</hi> and if I diſtruſted the latter, the Book of God and Religion ſeems <hi>Impo<g ref="char:EOLhyphen"/>ſture</hi> and Deluſion. All my <hi>Amuſements</hi> ariſe from hence, that (in all appea<g ref="char:EOLhyphen"/>rance) a thouſand to one miſcarry, when (if all had
+<pb n="204" facs="tcp:101294:108"/> a free uſe of their princi<g ref="char:EOLhyphen"/>ples) there ſeems to be a thouſand to one that they ſhould not.</p>
+            <p>I will now return to what engaged me in this <hi>caſual digreſſion,</hi> (which yet was ſo great a block in my way, as that I could not well ſtep over it) <hi>viz.</hi> That I would have all things Sacred, Wiſe and Vertuous, included in the very name of <hi>Chriſtian Prieſt.</hi> And ſince all the true <hi>Philoſophy</hi> (Divine and Moral, I mean) that hath ever been ſince <hi>A<g ref="char:EOLhyphen"/>dam,</hi> is <hi>ſublimated</hi> by the
+<pb n="205" facs="tcp:101294:108"/> refined Doctrines of the great <hi>Meſſiah,</hi> I would have my Prieſt <hi>a magni<g ref="char:EOLhyphen"/>fying Mirrour</hi> of it all; or in our Saviours words, <hi>Be the light of the world,</hi> Mat. 5. 14.</p>
+            <p>'Tis a dull thing to <hi>jog</hi> through all the <hi>ſtages</hi> of this Life in the common Road of Nature, and to live over again the vulgar ordinary Life, that the generality of Men have done ſince <hi>Adam,</hi> to be governed by Senſe and Convenience, and look no farther than the Sun, Moon or Stars; unleſs
+<pb n="206" facs="tcp:101294:109"/> likewiſe we refine our Thoughts and Wiſhes to the laſt degree, <hi>mould</hi> our groſs Natures anew, and create a difference as great betwixt the vulgar <hi>herd</hi> of Mankinde and our ſelves, as is betwixt them and <hi>Brutes:</hi> Let us but truely regard the <hi>tranſcen<g ref="char:EOLhyphen"/>dency</hi> and nobility of our <hi>Function,</hi> whoſe <hi>Heraldry</hi> cannot be <hi>Blazon'd</hi> be<g ref="char:EOLhyphen"/>neath <hi>Saturn.</hi> We may (in this caſe) invert the ſence of our Saviour's words, &amp; ſay, <hi>No Prophet has</hi> 
+               <note place="margin">
+                  <hi>Mat.</hi> 13. 57.</note> 
+               <hi>honour but in his own</hi>
+               <pb n="207" facs="tcp:101294:109"/> 
+               <hi>Country.</hi> Heaven is the Kingdome from whence we are <hi>delegated</hi> as Am<g ref="char:EOLhyphen"/>baſſadours of Chriſt, not as <hi>Reſidents;</hi> and we ſhould long to be called back. If we <hi>Prieſts</hi> are indeed in good earneſt as to the buſineſs of the <hi>upper world,</hi> 'tis a wonder to me, that our moſt paſ<g ref="char:EOLhyphen"/>ſionate Deſires make not good the words of St. <hi>Paul</hi> literally, <hi>in wiſhing to</hi> 
+               <note place="margin">1 Cor. 15. 31.</note> 
+               <hi>dye dayly.</hi>
+            </p>
+            <p>The enjoyment of my Saviour in the Heaven of Heavens, in his <hi>Humane</hi>
+               <pb n="208" facs="tcp:101294:110"/> 
+               <hi>Nature,</hi> whereby he is graciouſly pleaſed to be<g ref="char:EOLhyphen"/>come not a Mediator on<g ref="char:EOLhyphen"/>ly, but <hi>Interpreter</hi> alſo betwixt my Soul and the incomprehenſible and <hi>un<g ref="char:EOLhyphen"/>intelligible Godhead,</hi> raiſes Ecſtatick <hi>Languiſhments</hi> often in my longing minde to adjourn from this groſs body, and I deſire to depart and to be with Chriſt, <hi>Phil.</hi> 1. 23.</p>
+            <p>The Joys of the Hea<g ref="char:EOLhyphen"/>venly <hi>Jeruſalem</hi> as they are ſupernatural, ſo con<g ref="char:EOLhyphen"/>trary to the nature of all other <hi>Objects,</hi> they en<g ref="char:EOLhyphen"/>creaſe and magnifie by
+<pb n="209" facs="tcp:101294:110"/> diſtance; appearing ſo much the bigger to me, becauſe I cannot ſee them at all: and when my Eye hath paſſed the <hi>Regions</hi> of the Stars, which ſhew ſtill leſs and leſs by length of <hi>proſpect,</hi> all things a<g ref="char:EOLhyphen"/>bove them encreaſe by divine Contemplation, and grow greater and greater, till I am loſt and ſwal<g ref="char:EOLhyphen"/>lowed up in the <hi>Infinity</hi> of my Maker. The bounds of my <hi>Native</hi> Country begin, where the biggeſt of the <hi>fixt Stars</hi> would be inviſible, and the <hi>Fron<g ref="char:EOLhyphen"/>tiers</hi> of Heaven lye be<g ref="char:EOLhyphen"/>yond
+<pb n="210" facs="tcp:101294:111"/> the <hi>Ken</hi> of Senſe. Theſe thoughts run me almoſt to <hi>raptures</hi> una<g ref="char:EOLhyphen"/>wares. But as I was ſay<g ref="char:EOLhyphen"/>ing, ſince our Faith hath <hi>Myſteries</hi> beyond the higheſt reach of <hi>Plato</hi>'s <hi>Ideas,</hi> and that our Do<g ref="char:EOLhyphen"/>ctrines are refined above the pureſt of the great <hi>Ariſtotle</hi>'s <hi>Ethicks,</hi> and our Precepts of Self-denial, better and more agreeable to Humane Nature than the impracticable <hi>Apathie</hi> of the <hi>Romantick Stoicks;</hi> Let us outlive the Wiſ<g ref="char:EOLhyphen"/>dome and Philoſophy of the whole world, and out<g ref="char:EOLhyphen"/>do
+<pb n="211" facs="tcp:101294:111"/> them all at their own <hi>weapon.</hi> In order to all which, the ſkill of a Chri<g ref="char:EOLhyphen"/>ſtian <hi>Prieſt</hi> can no ways appear ſo clearly, as in a perfect contempt of this world; in which there is nothing worth the regards of a wiſe man. 'Tis true, we finde a continual long<g ref="char:EOLhyphen"/>ing in our Souls after ſome thing, which we cannot meet with here; and there<g ref="char:EOLhyphen"/>fore we trace the <hi>ſum<g ref="char:EOLhyphen"/>mum bonum</hi> (to no pur<g ref="char:EOLhyphen"/>poſe) through all the va<g ref="char:EOLhyphen"/>rious <hi>Mazes</hi> of Nature, till the repetition of the moſt delightful objects
+<pb n="212" facs="tcp:101294:112"/> turns <hi>nauſeous,</hi> and leaves us more to ſeek than when we firſt began: We never run in <hi>View</hi> of it here (when we are moſt pleaſed) but after all our tireſome Courſes finde in the cloſe, that we have all the while <hi>hunted</hi> our ſelves weary by <hi>a wrong Scent.</hi>
+            </p>
+            <p>Nay more, the very <hi>keeneſt</hi> pleaſures of Na<g ref="char:EOLhyphen"/>ture, and ſuch as the grea<g ref="char:EOLhyphen"/>teſt <hi>Senſualists rhodomon<g ref="char:EOLhyphen"/>tade</hi> moſt upon, affect us leaſt, when they are grea<g ref="char:EOLhyphen"/>teſt, and glut but Sence to an Inſenſibility; or elſe
+<pb n="213" facs="tcp:101294:112"/> they vaniſh in the em<g ref="char:EOLhyphen"/>brace, dye in the graſp, leaving not the leaſt <hi>track of flavour</hi> or ſweetneſs behind, but rather a diſ<g ref="char:EOLhyphen"/>ſatisfyed and ſtill craving Appetite.</p>
+            <p>Beſides all this, the pleaſures of this life con<g ref="char:EOLhyphen"/>cern the <hi>brute</hi> more pro<g ref="char:EOLhyphen"/>perly than the man; nor do the higheſt ſenſible joys touch the better half of humane nature, unleſs it be to its <hi>abatement</hi> and diſadvantage: for Reaſon is always at the <hi>loweſt ebb,</hi> if not quite extinct, in acts of the greateſt <hi>ſenſuality.</hi>
+            </p>
+            <pb n="214" facs="tcp:101294:113"/>
+            <p> But that the people may verily believe us, when we promiſe to car<g ref="char:EOLhyphen"/>ry them to a Land <hi>flow<g ref="char:EOLhyphen"/>ing with milk and honey;</hi> that they may indeed think us in good earneſt, when we tell them, <hi>that eye hath not ſeen, nor ear heard, neither have entred into the heart of man, the things which God hath prepared for them that love him,</hi> 1 Cor. 2. 9. let none of us in any faſhi<g ref="char:EOLhyphen"/>on caſt a longing look backward on the <hi>fleſhpots of Egypt,</hi> in our advances to the heavenly <hi>Canaan.</hi>
+               <pb n="215" facs="tcp:101294:113"/> And above all, we muſt expreſs lively the deep ſenſe and ſtedfaſt truſt we have of heavenly trea<g ref="char:EOLhyphen"/>ſure, in being regardleſs of this worlds wealth, and of the <hi>Mammon</hi> of un<g ref="char:EOLhyphen"/>righteouſneſs: to ſet any extraordinary value upon which, is in all men irre<g ref="char:EOLhyphen"/>ligious, in a <hi>Cburchman</hi> abominable and odious; 'tis baſe <hi>Idolatry,</hi> Col. 3. 5. and blaſphemy to Divine Providence; 'tis to unra<g ref="char:EOLhyphen"/>vel the peculiar principle of <hi>Chriſtianity,</hi> and run <hi>retrograde</hi> to the ſteps of the holy Jeſus: 'tis to ſet
+<pb n="216" facs="tcp:101294:114"/> up <hi>golden Calves in</hi> Be<g ref="char:EOLhyphen"/>thel, and by ill example to hinder the people from going to <hi>Jeruſalem</hi> to worſhip. The <hi>vulgar</hi> ex<g ref="char:EOLhyphen"/>pect, and juſtly too, ſome<g ref="char:EOLhyphen"/>what extraordinary in the <hi>Prieſts;</hi> but when they ſee them tempted in all things like unto them<g ref="char:EOLhyphen"/>ſelves, and yet not with<g ref="char:EOLhyphen"/>out as great ſin; when the ſame corrupt paſſions and worldly affections appear in them, how ſhould vul<g ref="char:EOLhyphen"/>gar prejudice and igno<g ref="char:EOLhyphen"/>rance believe their Do<g ref="char:EOLhyphen"/>ctrines, or not deſpiſe their perſons? We are obliged
+<pb n="217" facs="tcp:101294:114"/> above all men to approve our ſelves the Diſciples of Chriſt, by imitating in a due meaſure the ſimple meanneſs and plain po<g ref="char:EOLhyphen"/>verty of our Saviours Life and Converſation; at leaſt (when our <hi>accidental grandeur</hi> is greateſt) we muſt be poor in Matth. 5. 3. ſpirit. No eager <hi>purſuit,</hi> or reſtleſs intemperate de<g ref="char:EOLhyphen"/>ſire of wealth or honour, muſt be harboured by us, who are to fix Heb. 11. 16 our whole hopes on ano<g ref="char:EOLhyphen"/>ther Country; and we ſhould confeſs our ſelves ſtrangers and <hi>Pilgrims</hi> on
+<pb n="218" facs="tcp:101294:115"/> this Earth, by the precept and examples of all the holy <hi>Prophets and Apo<g ref="char:EOLhyphen"/>ſtles</hi> throughout the whole Book of God. But if our heavenly Father have bleſſed us with afflu<g ref="char:EOLhyphen"/>ence and increaſe, 'tis im<g ref="char:EOLhyphen"/>pious to let his <hi>bounty</hi> be<g ref="char:EOLhyphen"/>get a baſe and <hi>ſordid</hi> par<g ref="char:EOLhyphen"/>cimony in us, whom by this he deſigned as <hi>diſpen<g ref="char:EOLhyphen"/>ſers</hi> and ſtewards of his goodneſs and providence to the poor, the Father<g ref="char:EOLhyphen"/>leſs and the Widow. <hi>Pure</hi> Jam. 1. 27. <hi>Religion and un<g ref="char:EOLhyphen"/>deſiled before God,</hi> ſaith St. <hi>James, is to viſit the</hi>
+               <pb n="219" facs="tcp:101294:115"/> 
+               <hi>fatherleſs and widows in their affliction.</hi> And St. John, <hi>Whoſo hath</hi> 1 Joh. 3. 17. <hi>this Worlds good, and ſeeth his Brother have need, and ſhutteth his bowels of compaſſion from him, how dwelleth the love of God in him?</hi>
+            </p>
+            <p>We are the poor man's <hi>Advocate and Sollicitor</hi> with others, and our ſelves are the proper <hi>Chanels and Conveyances</hi> through whom God derives his refreſhing ſtreams to the needy; and if, in their running tho<g ref="char:EOLhyphen"/>row our hands, they leave
+<pb n="220" facs="tcp:101294:116"/> but enough behind them to ſatisfie our own neceſ<g ref="char:EOLhyphen"/>ſary wants and occaſions, 'tis all we can in duty call ours.</p>
+            <p>For the rich therefore among us to be <hi>cloſe<g ref="char:EOLhyphen"/>handed,</hi> and niggardly towards the want of our Brethren, and to fancy we have performed our part in Preaching to ſave their Souls, when at the ſame time we let their Bodies ſtarve; this is a Crime of <hi>a deeper die</hi> than to fall under the notion of common <hi>Avarice;</hi> 'tis with <hi>Sacrilegious</hi> hands
+<pb n="221" facs="tcp:101294:116"/> to ſtop the current of God's Goodneſs, and to rob the publick <hi>ſtock</hi> of Providence. But <hi>a Diſ<g ref="char:EOLhyphen"/>courſe</hi> of this kinde here, I hope is al ogether need<g ref="char:EOLhyphen"/>leſs; And theſe brief Hints are deſigned more to prevent overſights of this kinde that may hap<g ref="char:EOLhyphen"/>pen, than to ſuggeſt any neglect that now are.</p>
+            <p>I am naturally inclined to Tenderneſs and Pity, and therefore conſider it not in my ſelf as a Vertue. The Pain of <hi>a Brute</hi> me<g ref="char:EOLhyphen"/>thinks touches my ſenſe in the <hi>remote relation of</hi>
+               <pb n="222" facs="tcp:101294:117"/> 
+               <hi>animality:</hi> But as I am included in the <hi>maſs</hi> of <hi>Mankinde,</hi> and am a piece of the <hi>Species;</hi> ſo again I think each part of that (in a manner) a piece of me; at leaſt 'tis a member of that <hi>whole,</hi> whereof I my ſelf am alſo a part: And therefore I cannot ſee a Wound, or Hurt, or Grief in another, but I fancy I feel it in my ſelf; and a certain ſenſible Pain is derived to me by <hi>Sym<g ref="char:EOLhyphen"/>pathetick Communication,</hi> as I have one ſhare in the <hi>whole.</hi> And thus methinks in eaſing the Grief, or want
+<pb n="223" facs="tcp:101294:117"/> or pain of another, I apply a Remedy to my own Sore, and aſſwage the ſmart of that Pain, which I feel in the <hi>great body</hi> of Man<g ref="char:EOLhyphen"/>kinde.</p>
+            <p>But ſtill farther: the Suf<g ref="char:EOLhyphen"/>ferings of another affect me (yet ſtill) by a nearer and more tender concern, and as I am a Member of Chriſts <hi>Myſtical Body,</hi> the leaſt <hi>Dolour</hi> in any other part touches me to the <hi>quick,</hi> and I eaſily <hi>Sympathize</hi> with the wants of a <hi>Fellow-Member;</hi> otherwiſe I ſhould fear I had no part with my Saviour, or as a dead Mem<g ref="char:EOLhyphen"/>ber
+<pb n="224" facs="tcp:101294:118"/> had loſt all ſenſe of the Divine Life.</p>
+            <p>And now (Reader) to ſum up all (thô much more might be ſaid on the noble ſubject of this <hi>Trea<g ref="char:EOLhyphen"/>tiſe)</hi> as I entertained thy firſt glance with a <hi>Figure</hi> at the beginning, ſo I will conclude all in preſenting thee a <hi>ſlight Pourtrait</hi> of a true Clergyman.</p>
+            <p>He is one that fears <hi>God</hi> and the <hi>King,</hi> and meddles not with them that are given to <hi>change;</hi> he be<g ref="char:EOLhyphen"/>lieves and can prove, that the King is <hi>Head</hi> of
+<pb n="225" facs="tcp:101294:118"/> Church and State imme<g ref="char:EOLhyphen"/>diately under God, and that He is <hi>accountable</hi> to none but Heaven. He zealouſly aſſerts the <hi>Royal Prerogative,</hi> and reveres the <hi>Fundamental Laws</hi> of the Land, and that for Conſcience ſake; yet neither baſely <hi>fawns,</hi> nor buſily <hi>rails</hi> himſelf (the better <hi>trick</hi> of the two) into <hi>Preferment.</hi> The Word of God is his <hi>Com<g ref="char:EOLhyphen"/>paſs,</hi> and his Conſcience the <hi>Needle</hi> by which he <hi>ſteers</hi> as ſteady a Courſe in the moſt tempeſtuous, as in the moſt ſerene and
+<pb n="226" facs="tcp:101294:119"/> calmeſt Weather. He knows his <hi>Commiſſion</hi> runs high, and his <hi>Character</hi> to be great, as he is the <hi>Ambaſſadour</hi> of the King of Heaven; and therefore he dares not ſtoop out of baſe fear to any unwar<g ref="char:EOLhyphen"/>rantable <hi>compliance</hi> to the diſhonour of his Ma<g ref="char:EOLhyphen"/>ſter, as alſo pretends not a falſe Licence by an aſ<g ref="char:EOLhyphen"/>ſuming Pride to affront the Princes that give him Audience. If by his Pru<g ref="char:EOLhyphen"/>dence and Conduct his <hi>Ambaſſage</hi> meets with ſuc<g ref="char:EOLhyphen"/>ceſs, and anſwers the de<g ref="char:EOLhyphen"/>ſires of his <hi>Maſter,</hi> he is
+<pb n="227" facs="tcp:101294:119"/> joyful; if with neglect or contempt, he rails not: but at his recalling home (he knows) muſt make his Report at his <hi>Maſter</hi>'s <hi>Court.</hi> If any miſcarriage have hapned through his folly or fear, he knows very well that the puniſh<g ref="char:EOLhyphen"/>ment is <hi>Capital.</hi> He ſtrives not to make himſelf re<g ref="char:EOLhyphen"/>ver'd by a ſtarcht Deport<g ref="char:EOLhyphen"/>ment, affected Gravity, or a <hi>mortified Grimace;</hi> but by acts of Piety, Loy<g ref="char:EOLhyphen"/>alty, and Charity: and his <hi>Motto</hi> is <hi>Semper Idem,</hi> as having the ſame meek even Temper of Minde
+<pb n="228" facs="tcp:101294:120"/> when <hi>Biſhop,</hi> as when <hi>Vi<g ref="char:EOLhyphen"/>car.</hi> If he be not very <hi>Learned,</hi> he is neverthe<g ref="char:EOLhyphen"/>leſs honeſt and painful in his Calling: if he be, he is not aſſuming or <hi>dogma<g ref="char:EOLhyphen"/>tical,</hi> much leſs an ill-bred <hi>pedantick Opiniator.</hi> He is dutiful to his <hi>Dioceſan,</hi> and obedient to his <hi>Ordi<g ref="char:EOLhyphen"/>nary;</hi> and his Converſa<g ref="char:EOLhyphen"/>tion towards his <hi>Flock</hi> is an equal mixture of Affa<g ref="char:EOLhyphen"/>bility, Gravity, and Meek<g ref="char:EOLhyphen"/>neſs. He carefully <hi>calcu<g ref="char:EOLhyphen"/>lates</hi> his Sermons for the <hi>Meridian</hi> of his Pariſhio<g ref="char:EOLhyphen"/>ners, and reproves their Irregularities with awe
+<pb n="229" facs="tcp:101294:120"/> and reverence from the <hi>Pulpit,</hi> where 'tis the word of God; but with a more familiar Gentle<g ref="char:EOLhyphen"/>neſs in private Converſe, where 'tis his own. If by chance he light into Company profane or ob<g ref="char:EOLhyphen"/>ſcene, he expreſſes a diſ<g ref="char:EOLhyphen"/>like rather grave than moroſe; and can tell when to reprove with <hi>Raillery,</hi> when with Seve<g ref="char:EOLhyphen"/>rity: He knows too, when to rebuke one Oath will occaſion <hi>half a ſcore,</hi> and an affront to the <hi>Parſon</hi> to <hi>boot;</hi> this <hi>boiſterous</hi> rude company of all he
+<pb n="230" facs="tcp:101294:121"/> ſhuns, where contempt muſt needs follow both ways. He can eaſily and <hi>adjuſtly</hi> act the Scholar or the Gentleman, as oc<g ref="char:EOLhyphen"/>caſion requires; but his general Converſation hath a due mixture of both. At Table his diſcourſe is the moſt ſavoury <hi>Sawce,</hi> and here he is liberal and ho<g ref="char:EOLhyphen"/>ſpitable, as knowing very well that <hi>Principles</hi> of Obedience and Confor<g ref="char:EOLhyphen"/>mity <hi>work</hi> beſt, when they are <hi>taken down</hi> in good Meat and Drink <hi>gratis.</hi> He is dutiful and thankful to his <hi>Patron,</hi> yet cannot
+<pb n="231" facs="tcp:101294:121"/> connive at, much leſs flat<g ref="char:EOLhyphen"/>ter his <hi>Vice:</hi> In a word, he hath true Chriſtian Courage, <hi>and fears not man that can kill the bo<g ref="char:EOLhyphen"/>dy and do no more.</hi>
+            </p>
+            <trailer>The End.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:101294:122"/>
+            <head>Some Books Printed for <hi>Henry Brome.</hi>
+            </head>
+            <list>
+               <item>
+                  <hi>DR.</hi> Comber's <hi>Para<g ref="char:EOLhyphen"/>phraſe on the Com<g ref="char:EOLhyphen"/>mon Prayer, in four Vo<g ref="char:EOLhyphen"/>lumes, in</hi> Octavo.</item>
+               <item>Seneca's <hi>Morals in three Vol.</hi> Octavo.</item>
+               <item>
+                  <hi>Dr.</hi> Heylin <hi>on the Creed, in</hi> Folio.</item>
+               <item>
+                  <hi>The Fathers Legacy to his Friends, containing the whole Duty of Man.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Du-Moulin's <hi>Week of Prayers.</hi>
+               </item>
+               <item>
+                  <hi>Chriſtianity no Enthuſiaſm.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Woodford <hi>on the Pſalms.</hi>
+               </item>
+               <pb facs="tcp:101294:122"/>
+               <item> 
+                  <hi>—His Divine Poems.</hi>
+               </item>
+               <item>
+                  <hi>The Guide to Eternity.</hi>
+               </item>
+               <item>
+                  <hi>Precepts and Practical Rules for a truly Chriſtian life.</hi>
+               </item>
+               <item>
+                  <hi>Mr.</hi> Camfield's <hi>Diſcourſe of Angels.</hi>
+               </item>
+               <item>
+                  <hi>The Reformed Catholick, or the Love of</hi> Jeſus.</item>
+               <item>
+                  <hi>The Lives of the Grand Viziers.</hi>
+               </item>
+               <item>
+                  <hi>The Hiſtory of the</hi> Savarites.</item>
+               <item>
+                  <hi>Bp.</hi> Wilkins <hi>Real Character in</hi> Fol.</item>
+               <item>
+                  <hi>—His Natural Religion.</hi>
+               </item>
+               <item>
+                  <hi>The Hiſtory of the</hi> Iriſh <hi>Re<g ref="char:EOLhyphen"/>bellion in</hi> Fol.</item>
+               <item>
+                  <hi>The Life of the Great Duke</hi> Eſpernon.</item>
+               <item>Montluck's <hi>Commentaries,</hi> fol.</item>
+               <pb facs="tcp:101294:123"/>
+               <item> 
+                  <hi>Bp.</hi> Couſens <hi>against Tran<g ref="char:EOLhyphen"/>ſubſtantiation.</hi>
+               </item>
+               <item>
+                  <hi>Mr.</hi> Simpſon's <hi>Compendium of Muſick. His Violiſt.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Comber<hi>'s Advice to</hi> Roman <hi>Catholicks.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Lloyd's <hi>ſeveral Ser<g ref="char:EOLhyphen"/>mons and Tracts in De<g ref="char:EOLhyphen"/>fence of the Church.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Spratt's <hi>four Sermons.</hi>
+               </item>
+               <item>
+                  <hi>—His Plague of Athens.</hi>
+               </item>
+               <item>Speed's <hi>Maps</hi> in <hi>Fol. and his Epitom.</hi>
+               </item>
+               <item>
+                  <hi>Six Witty Converſations.</hi>
+               </item>
+               <item>Pharmacopoeia Londin. <hi>fol.</hi>
+               </item>
+               <item>Spencer's <hi>Works, in fol.</hi>
+               </item>
+               <item>
+                  <hi>Mr.</hi> Baniſter's <hi>Ayres.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Whitby <hi>againſt Hoſt-worſhip.</hi>
+               </item>
+               <pb facs="tcp:101294:123"/>
+               <item> 
+                  <hi>The Fair one of</hi> Tunis.</item>
+               <item>
+                  <hi>Mr.</hi> Hickman's <hi>Sermon be<g ref="char:EOLhyphen"/>fore the Lord Mayor.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Glanvil's <hi>zealous and impartial Proteſtant.</hi>
+               </item>
+               <item>Barbett's <hi>Practice of Phyſic.</hi>
+               </item>
+               <item>Voſſius <hi>of the Winds and Seas.</hi>
+               </item>
+               <item>Pool's Parnaſſus <hi>in Engliſh.</hi>
+               </item>
+               <item>
+                  <hi>The Scholars Guide from the</hi> Accidence <hi>to the</hi> Univerſity.</item>
+               <item>
+                  <hi>Plots and Conſpiracies.</hi>
+               </item>
+               <item>
+                  <hi>Counter-Plot.</hi>
+               </item>
+               <item>
+                  <hi>Way of Peace, Love &amp; Truth.</hi>
+               </item>
+               <item>Centum Fabulae.</item>
+               <item>
+                  <hi>Anatomy of the Elder.</hi>
+               </item>
+               <item>Artis Oratoriae.</item>
+               <item>Skinner<hi>'s Lexicon in</hi> Fol.</item>
+               <pb facs="tcp:101294:124"/>
+               <item> 
+                  <hi>Education of Children.</hi>
+               </item>
+               <item>
+                  <hi>Sir</hi> Kenelm Digby's <hi>Re<g ref="char:EOLhyphen"/>ceipts.</hi>
+               </item>
+               <item>Virgil <hi>Traveſty.</hi>
+               </item>
+               <item>Lucian <hi>Burleſque.</hi>
+               </item>
+               <item>
+                  <hi>The Exact Conſtable.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Starkey's <hi>Apology for the Church.</hi>
+               </item>
+               <item>
+                  <hi>The Planters Manual.</hi>
+               </item>
+               <item>
+                  <hi>The Compleat Gamester.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Gliſſon's <hi>Anatomy.</hi>
+               </item>
+               <item>Gliſſon's <hi>Common Law E<g ref="char:EOLhyphen"/>pitomis'd.</hi>
+               </item>
+               <item>
+                  <hi>Dr.</hi> Ford's <hi>Sermon on the Man whoſe Legs and Arms rotted off.</hi>
+               </item>
+               <item>Boſcobel, <hi>or the Kings E<g ref="char:EOLhyphen"/>ſcape at</hi> Worceſter.</item>
+               <item>
+                  <hi>Study to be quiet.</hi>
+               </item>
+            </list>
+            <pb facs="tcp:101294:124"/>
+         </div>
+      </back>
+   </text>
+</TEI>
